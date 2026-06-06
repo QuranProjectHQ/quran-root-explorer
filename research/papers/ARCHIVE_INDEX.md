@@ -54,6 +54,31 @@ Most papers exist as a final **PDF** (in `مقالات/`) plus a **manuscript (.
 | `بانک اطلاعاتی چندواحدی مهر ۱۴۰۳.xlsx` | Multi-unit relational database (the master data) |
 | per-paper `*.xlsx` under `مستندات و داده‌های پشتیبان/` | Each paper's working/analysis data |
 
+## English papers (2026) — newest set, English-language
+*Currently on local disk at `C:\AyoubTemp 1-1402\…\NEW- English Papers 2026\` (not yet in Drive).
+A `PAPER COMPENDIUM/` subfolder collects the final manuscripts; each topic also has supporting data
+(`Book4.xlsx/csv`, MATLAB `.mat`/`.fig`, figure PNGs, CSV/XLSX tables).*
+
+| Paper (English) | Theme | Maps to |
+|---|---|---|
+| Network Mapping of Qur'anic Moral Architecture (Harm–Virtue) | Moral network | Network |
+| Moral Motif Analysis of the Qur'an (Harm–Virtue) | Motifs | Motifs |
+| A Normalised Density-Based Synthesis of Harm and Virtue | Density | Statistics |
+| Motif Analysis of Gender and Human Relational Discourse | Motifs/gender | Motifs |
+| Motif Analysis of Thematic Structure — Recurring Configurations | Recurrence/motifs | Motifs / recurrence |
+| Surah-Level Structural Motif Analysis of the Qur'an | Structural motifs | Motifs |
+| Lexical Gender Discourse in the Qur'an | Lexical/gender | Statistics |
+| Economic Equity, Gender Roles, and Asset Circulation in the Qur'an | Thematic | Concept Deep Dive |
+| Spatial Distribution of Semantic Concepts in the Qur'anic Corpus | Spatial | Spatial Patterns |
+| Surah-Relative Spatial Analysis of Root Distribution | Spatial | Spatial Patterns |
+| From Spatial Arrangement to Temporal Sequence | Spatial→temporal | nuzūl / Spatial |
+| Revelation Order Reconstruction via Simulated Annealing | Revelation order | nuzūl |
+| Study A — Intra-Period Ayah Ordering (Slope-Based Temporal Indicators) | Revelation order | nuzūl |
+| تقوی (Taqwā) in the Qur'an (WaqiMotif) | Thematic/motif | Concept Deep Dive |
+
+*Status: to be uploaded into the Drive archive (with the Persian set) and the final PDFs optionally
+linked here. Physical move pending (see PROJECT_MAP §6).*
+
 ---
 
 ## Notes
