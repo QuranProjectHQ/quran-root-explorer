@@ -486,4 +486,11 @@ def main():
 
     st.divider()
     st.caption(
-        "📚 Use the **left navigat
+        "📚 Use the **left navigation** for the eight deep-dive pages: "
+        "Per-Root Profile · Network · Motifs · Ayah Browser · Compare & Heatmaps · "
+        "Morphology · Statistics · Export."
+    )
+
+
+if __name__ == "__main__":
+    main()

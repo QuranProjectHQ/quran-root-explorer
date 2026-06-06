@@ -69,7 +69,6 @@ NAV_SECTIONS = [
     ("🛠️ HELP & EXPORT", [
         (None, [
             ("pages/0_Help.py", "Help", "❓"),
-            ("pages/21_Feedback_and_Bugs.py", "Feedback & Bugs", "💬"),
             (["pages/12_Export.py", "pages/8_Export.py"], "Export", "⬇️"),
             (["pages/13_Usage.py", "pages/9_Usage.py"], "Usage", "📊"),
         ]),
@@ -133,12 +132,6 @@ def render_grouped_nav():
                         except Exception:
                             continue
         st.divider()
-        # v1.4: always-visible bug + quick-feedback widgets (never break nav)
-        try:
-            import feedback as _fb
-            _fb.render_sidebar_widgets(st.session_state.get("_page", "unknown"))
-        except Exception:
-            pass
 
 
 def inject_css():
@@ -1645,4 +1638,58 @@ def _inject_visitor_shim():
                     if (needVid || needCc) {
                         var p = new URLSearchParams(w.location.search);
                         p.set('vid', vid);
-              
+                        if (ccFresh) p.set('cc', cc);
+                        w.location.replace(w.location.pathname + '?' + p.toString() + w.location.hash);
+                        return;
+                    }
+
+                    // 4. Need a country?  Fetch in background — next nav picks it up.
+                    if (!ccFresh) {
+                        fetch('https://ipapi.co/country/', { cache: 'no-store' })
+                            .then(function(r){ return r.text(); })
+                            .then(function(c){
+                                c = (c || '').trim().toUpperCase();
+                                if (/^[A-Z]{2}$/.test(c)) {
+                                    ls.setItem('qr_cc', c);
+                                    ls.setItem('qr_cc_ts', String(Date.now()));
+                                    var p2 = new URLSearchParams(w.location.search);
+                                    p2.set('cc', c);
+                                    w.history.replaceState({}, '',
+                                        w.location.pathname + '?' + p2.toString() + w.location.hash);
+                                }
+                            })
+                            .catch(function(){});
+                    }
+                } catch (e) { /* analytics must never break the app */ }
+            })();
+            </script>
+            """,
+            height=0,
+        )
+    except Exception:
+        pass
+
+
+def log_page(page_name):
+    _inject_visitor_shim()
+    try:
+        import analytics as _ana
+        _ana.track_once_per_session("page_view", {"page": page_name})
+    except Exception:
+        pass
+
+
+def log_search(roots):
+    try:
+        import analytics as _ana
+        _ana.track("search", {"roots": [str(r) for r in roots[:8]]})
+    except Exception:
+        pass
+
+
+def log_export(fmt):
+    try:
+        import analytics as _ana
+        _ana.track("export", {"format": fmt})
+    except Exception:
+        pass

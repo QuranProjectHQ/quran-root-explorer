@@ -142,4 +142,17 @@ else:
 .tri-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px 10px;}
 .tri-card{border:1px solid #FCBF49;border-radius:10px;padding:8px 12px;background:#FFFEF7;}
 .tri-card .ar{direction:rtl;text-align:right;font-family:'Amiri','Amiri Quran','Noto Naskh Arabic',serif;font-size:18px;line-height:1.55;color:#1B263B;margin:0 0 4px 0;}
-.tri-card .meta{font-size:1
+.tri-card .meta{font-size:11px;color:#6B7280;margin:0;}
+</style>
+""", unsafe_allow_html=True)
+    cards = []
+    for _, row in ayahs.iterrows():
+        ar = row.get("Quranic Text (diacritized)") or row["Segmented Ayah"]
+        meta = f"S{row['Surah #']}·A{row['Ayah #']} · {row['Surah Name']} · roots: {row['All Roots']}"
+        cards.append(f"<div class='tri-card'><div class='ar'>{ar}</div><div class='meta'>{meta}</div></div>")
+    st.markdown(f"<div class='tri-grid'>{''.join(cards)}</div>", unsafe_allow_html=True)
+
+# ── LAYER 3b — partner-motif clusters per input root ─────────────
+st.divider()
+layer(3, "Partner-motif clusters — top 20 partners per input root")
+st.dataframe(R["pmotifs"], width='content', hide_index=True, height=380)

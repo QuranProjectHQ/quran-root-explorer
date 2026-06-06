@@ -909,4 +909,16 @@ with TABS[7]:
     - **"No matches" when I type a root** — confirm **Tolerant matching** is ON in the sidebar
       (it should be by default).  Folds Persian ↔ Arabic letter variants.
     - **Want to start over** — click 🔄 START OVER at the top-right of any page.
-    - **Want to deep-dive int
+    - **Want to deep-dive into one root** — click the red
+      "🔍 Open '<root>' in Per Root Profile →" button on the per-root card on the home page.
+    - **PDF download from iPhone** — Safari downloads to Files → "On My iPhone" → Downloads.
+      Open the PDF from there; you can share to Mail, Messages, or print.
+    - **iPhone soft keyboard hides what I'm typing** — that's normal.  Press the blue
+      Search / Go key on the keyboard to commit, or tap the **Analyze** button.
+    - **Page looks cramped on my phone** — rotate to landscape for the wide tables and
+      heatmaps; portrait is fine for the per-root pages.
+    - **Loading is slow the first time** — the host server may be waking up after idle.
+      Subsequent loads on the same day are instant.
+    """)
+    st.markdown("<div class='tab-back'>↑ Click 📋 Overview tab above to go back</div>",
+                unsafe_allow_html=True)
