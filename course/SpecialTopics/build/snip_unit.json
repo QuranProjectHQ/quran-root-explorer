@@ -1,0 +1,37 @@
+[
+ {
+  "ref": "108:1",
+  "tag": "shortest sūra (al-Kawthar, 3 ayahs)",
+  "snip": "إِنَّا أَعْطَيْنَاك الْكوْثَرَ"
+ },
+ {
+  "ref": "2:1",
+  "tag": "a 1-token ayah — the disjointed letters",
+  "snip": "الم"
+ },
+ {
+  "ref": "55:64",
+  "tag": "a single-word ayah (“dark green”)",
+  "snip": "مُدْهَامَّتَانِ"
+ },
+ {
+  "ref": "2:282",
+  "tag": "longest ayah — 84 root-tokens (debt)",
+  "snip": "يَا أَيُّهَا الَّذِينَ آمَنُواْ إِذَا تَدَايَنتُم بِدَيْنٍ إِلَى"
+ },
+ {
+  "ref": "2:255",
+  "tag": "Āyat al-Kursī — 29 tokens",
+  "snip": "اللّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ"
+ },
+ {
+  "ref": "2:286",
+  "tag": "al-Baqara closes — longest sūra (286)",
+  "snip": "لاَ يُكلِّفُ اللّهُ نَفْسًا إِلاَّ وُسْعَهَا"
+ },
+ {
+  "ref": "110:1",
+  "tag": "another 3-ayah sūra (an-Nasr)",
+  "snip": "إِذَا جَاء نَصْرُ اللَّهِ وَالْفَتْحُ"
+ }
+]

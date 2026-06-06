@@ -1,0 +1,40 @@
+# === SECRETS — never publish (credentials, tokens, keys) ===
+.hf_token
+*.token
+*.key
+.env
+.env.*
+secrets.*
+**/secrets/
+
+# === Deploy mechanism (not source; the repo itself IS the source of truth) ===
+.deploy_workdir/
+
+# === Python caches / build artifacts (regenerated automatically) ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# === Working caches & staging (regenerable; not part of the project) ===
+.stage/
+.topics_cache/
+.trans/
+.analytics/
+*.db-journal
+
+# === Logs & backups ===
+*.log
+*.bak
+*~
+
+# === Runtime / user-generated data (kept private, not committed) ===
+feedback/*.jsonl
+*.db
+
+# === OS / editor cruft ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

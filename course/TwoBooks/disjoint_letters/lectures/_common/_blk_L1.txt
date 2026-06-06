@@ -1,0 +1,49 @@
+# ============================================================ L1 INTRODUCTION
+prs=deck()
+titleslide(prs,"THE TWO BOOKS · The Disjoint Letters (al-Muqaṭṭaʿāt) · Lecture 1",
+ "Introduction — the mystery letters and the pointer hypothesis",
+ "Twenty-nine sūras open with disjoint letters that spell no word — الٓمٓ, حمٓ, الٓرٓ, قٓ, نٓ. For a millennium their purpose has been debated. This course tests one falsifiable idea: that they are POINTERS — references that index and group related sūras, not content to decode.",
+ "Anchor = the ROOT (ریشه); every figure is computed from Book6.xlsx (6,236 āyāt) and validated against a conservative null. No 'scientific-miracle' claims.")
+s=Tt(prs,"The puzzle, stated plainly")
+two(s,[L("LETTERS THAT SPELL NOTHING",18,True,NAVY),L("الٓمٓ (2:1), حمٓ (40:1), الٓرٓ (10:1), قٓ (50:1), نٓ (68:1) — pure letters, no lexical meaning. Classical scholarship offers many readings; none is settled.",16.5,True,TEAL)],
+ [L("THE WRONG QUESTION",18,True,NAVY),L("Most attempts ask 'what do they MEAN / spell / hide?' — treating them as a content code. A thousand years of that has not resolved them.",16.5)],sp=0.5,fa=TINT,fb=TINT2)
+figslide(prs,"Two hypotheses — and they predict different things","L1_04_two_hypotheses.png",
+ [L("CONTENT vs POINTER",18,True,NAVY),L("If the letters are CONTENT, they should bias letter-frequency — they don't. If they are a POINTER, same-tag sūras should GROUP. That second prediction is what we test.",16.5,True,TEAL)])
+figslide(prs,"The 29 sūras across the muṣḥaf — already clustered","L1_01_mushaf_map.png",
+ [L("FOUR FAMILIES, NINE SINGLETONS",18,True,NAVY),L("Each color is a family. The dots are not spread evenly: ḤM sits as a block in the 40s, ALR in the 10s. The eye sees grouping — the rest of the course measures whether it beats chance.",16.5,True,TEAL)])
+figslide(prs,"The families and their sizes","L1_02_family_sizes.png",
+ [L("THE TESTABLE UNITS",18,True,NAVY),L("ḤM (7 sūras), ALM (6), ALR (5), ṬSM (2) are the multi-member families we can test; the nine singletons (ق, ن, ص, طه …) are single points. 20 of the 29 sūras live in a family.",16.5,True,TEAL)])
+figslide(prs,"A first look at the Ḥawāmīm (ḤM)","L1_03_hm_block.png",
+ [L("SEVEN IN A ROW",18,True,TEAL),L("«حمٓ ۝ تَنزِيلُ ٱلْكِتَـٰبِ مِنَ ٱللَّهِ» (40:1–2). Sūras 40–46 carry the same opening with no gap. Striking — but muqaṭṭaʿāt sūras cluster anyway, so we must test the SPECIFIC tag (Lecture 2).",16.5,True,NAVY)])
+figslide(prs,"Why look here — the 29 are the long sūras","L1_05_corpus_share.png",
+ [L("A BIG SLICE OF THE TEXT",18,True,NAVY),L("The 29 disjoint-letter sūras are mostly long; together they hold a large share of all 6,236 āyāt. Whatever they organize, it is a large part of the book — not a curiosity at the margins.",16.5,True,TEAL)])
+s=Tt(prs,"A better question — what do they DO?")
+two(s,[L("THE POINTER HYPOTHESIS",18,True,TEAL),L("In computer science a pointer is not data; it is a reference that addresses where data lives and groups items sharing it. A disjoint-letter opening is a TAG marking a sūra as a member of a family.",16.5,True,NAVY)],
+ [L("A TESTABLE PREDICTION",18,True,AMBER),L("Pointers predict GROUPING, not letter-frequency. Same-tag sūras should cohere — near each other in the book, perhaps in time — even if the letters say nothing about subject.",16.5,True,NAVY)],sp=0.5,fa=TINT,fb=AMBERT)
+figslide(prs,"Only 14 distinct letters appear in all 29 openings","L1_06_distinct_letters.png",
+ [L("A SMALL, REPEATED ALPHABET",18,True,NAVY),L("Half the Arabic alphabet never opens a sūra. The openings reuse a small set (alif, lam, mim, ha, ra …) — consistent with a labelling scheme drawn from a fixed tag-vocabulary, not free text.",16.5,True,TEAL)])
+figslide(prs,"Almost all are Meccan","L1_07_meccan_medinan.png",
+ [L("A TIME SIGNATURE",18,True,AMBER),L("The disjoint-letter sūras are overwhelmingly Meccan. This is a clue we develop in Lecture 4: the tags also order onto revelation time, with one lone Medinan outlier (المر).",16.5,True,NAVY)])
+figslide(prs,"20 of 29 sūras belong to a family","L1_08_fam_vs_single.png",
+ [L("FAMILIES vs SINGLETONS",18,True,NAVY),L("Two-thirds of the disjoint-letter sūras sit in a multi-member family — the testable units of the pointer claim; the nine singletons are flagged but cannot be tested for internal clustering.",16.5,True,TEAL)])
+figslide(prs,"The 29 along revelation time","L1_09_nuzul_timeline.png",
+ [L("TWO AXES, NOT ONE",18,True,NAVY),L("Beyond their place in the book (muṣḥaf), each sūra has a place in revelation order (nuzūl). A real pointer might index either or both. We test contiguity on BOTH axes in Lecture 3.",16.5,True,TEAL)])
+figslide(prs,"A pointer addresses; it does not describe","L1_10_pointer_analogy.png",
+ [L("THE LIBRARY ANALOGY",18,True,TEAL),L("A call number tells you nothing about a book's story — only which shelf-mates it belongs with and where it sits. The claim: الٓمٓ, حمٓ, الٓرٓ are call numbers that bundle and place sūras.",16.5,True,NAVY)])
+s=Tt(prs,"Two readings to avoid")
+two(s,[L("THE DISMISSIVE READING",18,True,RED),L("'The letters are meaningless noise.' This ignores that they sit on specific sūras in a specific, non-random arrangement.",16.5,True,NAVY)],
+ [L("THE INFLATIONARY READING",18,True,RED),L("'The letters hide a numeric miracle.' This fails every test and bends to fit anything. We reject both extremes.",16.5,True,NAVY)],sp=0.5,fa=REDT,fb=REDT)
+appslide(prs,[("① SŪRA","enter 40 (ḤM)",TINT,TEAL),("② TAG","see its family",AMBERT,AMBER),("③ MAP","muṣḥaf + nuzūl",TINT,TEAL),("④ TEST","label-perm null",REDT,RED)],
+ "Pick a disjoint-letter sūra, see its family highlighted on the muṣḥaf and revelation timelines, and run the label-permutation null live.")
+s=slide(prs); audit(s,"The disjoint letters are real, well-defined objects; the families (Ḥawāmīm, Alif-Lām-Mīm) are recognized.","Reading the letters as a content code — a millennium of that has not worked.","Their ultimate purpose/meaning — beyond the organizational role we can test — stays open.")
+s=slide(prs); takeaway(s,"Asking 'what does it organize?' rather than 'what does it mean?' is a general key to misframed puzzles.","The disjoint letters are tested here as POINTERS: tags that group and place sūras. The rest of the course measures whether that holds.")
+s=Tt(prs,"Read it back — the openings name the Book")
+two(s,[L("THE LETTERS PRECEDE 'THE BOOK'",18,True,TEAL),L("«الٓرٓ ۚ تِلْكَ ءَايَـٰتُ ٱلْكِتَـٰبِ ٱلْحَكِيمِ» (10:1); «الٓمٓصٓ ۝ كِتَـٰبٌ أُنزِلَ إِلَيْكَ» (7:1–2); «حمٓ ۝ تَنزِيلُ ٱلْكِتَـٰبِ» (40:1–2).",16.5,True,NAVY)],
+ [L("CONSISTENT WITH HEADERS",18,True,AMBER),L("The letters repeatedly sit just before a reference to the scripture itself — the behavior of markers, not of content.",16.5,True,NAVY)],sp=0.5,fa=TINT,fb=AMBERT)
+s=Tt(prs,"A common pitfall")
+two(s,[L("THE PITFALL",18,True,RED),L("Treating الٓمٓ as an acronym or numeric code to 'crack'. Every such attempt over-fits and none replicates.",16.5,True,NAVY)],
+ [L("THE FIX",18,True,TEAL),L("Ask a falsifiable question — do the tags GROUP sūras? — and test it against the right null.",16.5,True,NAVY)],sp=0.5,fa=REDT,fb=TINT)
+s=Tt(prs,"Dual-domain — indexing everywhere")
+two(s,[L("عالم التكوين",18,True,AMBER),L("Genomes carry indexing motifs (promoters, origins) that mark and group regions without coding for a protein.",16.5,True,NAVY)],
+ [L("عالم التدوين",18,True,TEAL),L("On this reading the disjoint letters are scripture's indexing motifs — markers that organize its architecture.",16.5,True,NAVY)],sp=0.5,fa=AMBERT,fb=TINT)
+counts[1]=save(prs,"01_Introduction_DL.pptx")

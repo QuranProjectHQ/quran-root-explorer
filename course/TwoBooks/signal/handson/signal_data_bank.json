@@ -1,0 +1,194 @@
+[
+  {
+    "translit": "zulm",
+    "root": "ظلم",
+    "n": 290,
+    "mean_gap": 19.4,
+    "fano": 39.93,
+    "p": 0.0002,
+    "verdict": "bursty/clustered",
+    "first5": [
+      23,
+      25,
+      26,
+      41,
+      57
+    ]
+  },
+  {
+    "translit": "nafs",
+    "root": "نفس",
+    "n": 270,
+    "mean_gap": 22.4,
+    "fano": 61.32,
+    "p": 0.0002,
+    "verdict": "bursty/clustered",
+    "first5": [
+      15,
+      50,
+      54,
+      60,
+      63
+    ]
+  },
+  {
+    "translit": "huda",
+    "root": "هدي",
+    "n": 268,
+    "mean_gap": 22.9,
+    "fano": 56.87,
+    "p": 0.0002,
+    "verdict": "bursty/clustered",
+    "first5": [
+      5,
+      8,
+      11,
+      22,
+      32
+    ]
+  },
+  {
+    "translit": "dalal",
+    "root": "ضلل",
+    "n": 170,
+    "mean_gap": 36.6,
+    "fano": 58.72,
+    "p": 0.002,
+    "verdict": "bursty/clustered",
+    "first5": [
+      6,
+      22,
+      32,
+      114,
+      181
+    ]
+  },
+  {
+    "translit": "rizq",
+    "root": "رزق",
+    "n": 109,
+    "mean_gap": 55.5,
+    "fano": 154.76,
+    "p": 0.0002,
+    "verdict": "bursty/clustered",
+    "first5": [
+      9,
+      28,
+      31,
+      63,
+      66
+    ]
+  },
+  {
+    "translit": "sabr",
+    "root": "صبر",
+    "n": 93,
+    "mean_gap": 66.6,
+    "fano": 121.31,
+    "p": 0.0024,
+    "verdict": "bursty/clustered",
+    "first5": [
+      51,
+      67,
+      159,
+      161,
+      181
+    ]
+  },
+  {
+    "translit": "shukr",
+    "root": "شكر",
+    "n": 69,
+    "mean_gap": 81.7,
+    "fano": 115.41,
+    "p": 0.08,
+    "verdict": "bursty/clustered",
+    "first5": [
+      58,
+      62,
+      158,
+      164,
+      178
+    ]
+  },
+  {
+    "translit": "sirat",
+    "root": "صرط",
+    "n": 45,
+    "mean_gap": 119.5,
+    "fano": 202.58,
+    "p": 0.0464,
+    "verdict": "bursty/clustered",
+    "first5": [
+      5,
+      6,
+      148,
+      219,
+      343
+    ]
+  },
+  {
+    "translit": "yusr",
+    "root": "يسر",
+    "n": 40,
+    "mean_gap": 151.4,
+    "fano": 263.6,
+    "p": 0.0218,
+    "verdict": "bursty/clustered",
+    "first5": [
+      191,
+      202,
+      225,
+      286,
+      522
+    ]
+  },
+  {
+    "translit": "adl",
+    "root": "عدل",
+    "n": 24,
+    "mean_gap": 251.3,
+    "fano": 499.02,
+    "p": 0.0104,
+    "verdict": "bursty/clustered",
+    "first5": [
+      54,
+      129,
+      288,
+      495,
+      550
+    ]
+  },
+  {
+    "translit": "qist",
+    "root": "قسط",
+    "n": 22,
+    "mean_gap": 246.3,
+    "fano": 454.52,
+    "p": 0.038,
+    "verdict": "bursty/clustered",
+    "first5": [
+      288,
+      310,
+      313,
+      495,
+      619
+    ]
+  },
+  {
+    "translit": "rushd",
+    "root": "رشد",
+    "n": 19,
+    "mean_gap": 293.1,
+    "fano": 581.15,
+    "p": 0.0252,
+    "verdict": "bursty/clustered",
+    "first5": [
+      192,
+      262,
+      498,
+      1099,
+      1550
+    ]
+  }
+]

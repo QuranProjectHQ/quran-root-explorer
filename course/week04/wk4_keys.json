@@ -1,0 +1,585 @@
+{
+ "meta": {
+  "n_ayahs": 6236,
+  "measure": "joint vs expected (freq_A*freq_B/N); ratio = joint/expected; min joint 5",
+  "worked": {
+   "target": "صلو",
+   "gloss": "prayer",
+   "candidates": [
+    {
+     "cand": "قوم",
+     "joint": 52,
+     "freq": 597,
+     "exp": 8.6,
+     "ratio": 6.0
+    },
+    {
+     "cand": "ءله",
+     "joint": 44,
+     "freq": 1879,
+     "exp": 27.1,
+     "ratio": 1.6
+    },
+    {
+     "cand": "ءتي",
+     "joint": 27,
+     "freq": 486,
+     "exp": 7.0,
+     "ratio": 3.8
+    },
+    {
+     "cand": "ءمن",
+     "joint": 22,
+     "freq": 723,
+     "exp": 10.4,
+     "ratio": 2.1
+    },
+    {
+     "cand": "زكو",
+     "joint": 28,
+     "freq": 56,
+     "exp": 0.8,
+     "ratio": 34.6
+    },
+    {
+     "cand": "نفق",
+     "joint": 10,
+     "freq": 86,
+     "exp": 1.2,
+     "ratio": 8.1
+    }
+   ]
+  },
+  "headline": "raw shared-ayah winner is a frequent root; controlled winner is the specific bond"
+ },
+ "members": {
+  "صلو": {
+   "member": 1,
+   "gloss": "prayer",
+   "freq": 90,
+   "slate": [
+    {
+     "cand": "قوم",
+     "joint": 52,
+     "freq": 597,
+     "exp": 8.6,
+     "ratio": 6.0
+    },
+    {
+     "cand": "ءله",
+     "joint": 44,
+     "freq": 1879,
+     "exp": 27.1,
+     "ratio": 1.6
+    },
+    {
+     "cand": "زكو",
+     "joint": 28,
+     "freq": 56,
+     "exp": 0.8,
+     "ratio": 34.6
+    },
+    {
+     "cand": "ءتي",
+     "joint": 27,
+     "freq": 486,
+     "exp": 7.0,
+     "ratio": 3.8
+    },
+    {
+     "cand": "نفق",
+     "joint": 10,
+     "freq": 86,
+     "exp": 1.2,
+     "ratio": 8.1
+    }
+   ],
+   "raw_winner": "قوم",
+   "controlled_winner": "زكو"
+  },
+  "زكو": {
+   "member": 2,
+   "gloss": "zakat",
+   "freq": 56,
+   "slate": [
+    {
+     "cand": "ءله",
+     "joint": 28,
+     "freq": 1879,
+     "exp": 16.9,
+     "ratio": 1.7
+    },
+    {
+     "cand": "ءتي",
+     "joint": 29,
+     "freq": 486,
+     "exp": 4.4,
+     "ratio": 6.6
+    },
+    {
+     "cand": "صلو",
+     "joint": 28,
+     "freq": 90,
+     "exp": 0.8,
+     "ratio": 34.6
+    },
+    {
+     "cand": "قوم",
+     "joint": 27,
+     "freq": 597,
+     "exp": 5.4,
+     "ratio": 5.0
+    },
+    {
+     "cand": "علم",
+     "joint": 13,
+     "freq": 728,
+     "exp": 6.5,
+     "ratio": 2.0
+    }
+   ],
+   "raw_winner": "ءتي",
+   "controlled_winner": "صلو"
+  },
+  "كيل": {
+   "member": 3,
+   "gloss": "measure",
+   "freq": 13,
+   "slate": [
+    {
+     "cand": "قوم",
+     "joint": 4,
+     "freq": 597,
+     "exp": 1.2,
+     "ratio": 3.2
+    },
+    {
+     "cand": "ءله",
+     "joint": 4,
+     "freq": 1879,
+     "exp": 3.9,
+     "ratio": 1.0
+    },
+    {
+     "cand": "وزن",
+     "joint": 6,
+     "freq": 21,
+     "exp": 0.0,
+     "ratio": 137.1
+    },
+    {
+     "cand": "وفي",
+     "joint": 8,
+     "freq": 64,
+     "exp": 0.1,
+     "ratio": 60.0
+    },
+    {
+     "cand": "بخس",
+     "joint": 2,
+     "freq": 7,
+     "exp": 0.0,
+     "ratio": 137.1
+    }
+   ],
+   "raw_winner": "وفي",
+   "controlled_winner": "وزن"
+  },
+  "جنن": {
+   "member": 4,
+   "gloss": "paradise",
+   "freq": 196,
+   "slate": [
+    {
+     "cand": "قول",
+     "joint": 52,
+     "freq": 1383,
+     "exp": 43.5,
+     "ratio": 1.2
+    },
+    {
+     "cand": "ءله",
+     "joint": 47,
+     "freq": 1879,
+     "exp": 59.1,
+     "ratio": 0.8
+    },
+    {
+     "cand": "عدن",
+     "joint": 11,
+     "freq": 11,
+     "exp": 0.3,
+     "ratio": 31.8
+    },
+    {
+     "cand": "نهر",
+     "joint": 42,
+     "freq": 102,
+     "exp": 3.2,
+     "ratio": 13.1
+    },
+    {
+     "cand": "خلد",
+     "joint": 31,
+     "freq": 86,
+     "exp": 2.7,
+     "ratio": 11.5
+    }
+   ],
+   "raw_winner": "قول",
+   "controlled_winner": "عدن"
+  },
+  "حسب": {
+   "member": 5,
+   "gloss": "reckoning",
+   "freq": 102,
+   "slate": [
+    {
+     "cand": "ءله",
+     "joint": 51,
+     "freq": 1879,
+     "exp": 30.7,
+     "ratio": 1.7
+    },
+    {
+     "cand": "قول",
+     "joint": 18,
+     "freq": 1383,
+     "exp": 22.6,
+     "ratio": 0.8
+    },
+    {
+     "cand": "سرع",
+     "joint": 9,
+     "freq": 23,
+     "exp": 0.4,
+     "ratio": 23.9
+    },
+    {
+     "cand": "يوم",
+     "joint": 13,
+     "freq": 437,
+     "exp": 7.1,
+     "ratio": 1.8
+    },
+    {
+     "cand": "جمع",
+     "joint": 6,
+     "freq": 123,
+     "exp": 2.0,
+     "ratio": 3.0
+    }
+   ],
+   "raw_winner": "ءله",
+   "controlled_winner": "سرع"
+  },
+  "نفق": {
+   "member": 6,
+   "gloss": "spend",
+   "freq": 86,
+   "slate": [
+    {
+     "cand": "ءله",
+     "joint": 61,
+     "freq": 1879,
+     "exp": 25.9,
+     "ratio": 2.4
+    },
+    {
+     "cand": "قول",
+     "joint": 21,
+     "freq": 1383,
+     "exp": 19.1,
+     "ratio": 1.1
+    },
+    {
+     "cand": "رزق",
+     "joint": 16,
+     "freq": 109,
+     "exp": 1.5,
+     "ratio": 10.6
+    },
+    {
+     "cand": "سبل",
+     "joint": 14,
+     "freq": 164,
+     "exp": 2.3,
+     "ratio": 6.2
+    },
+    {
+     "cand": "خير",
+     "joint": 5,
+     "freq": 178,
+     "exp": 2.5,
+     "ratio": 2.0
+    }
+   ],
+   "raw_winner": "ءله",
+   "controlled_winner": "رزق"
+  },
+  "يتم": {
+   "member": 7,
+   "gloss": "orphan",
+   "freq": 22,
+   "slate": [
+    {
+     "cand": "ءله",
+     "joint": 10,
+     "freq": 1879,
+     "exp": 6.6,
+     "ratio": 1.5
+    },
+    {
+     "cand": "قول",
+     "joint": 6,
+     "freq": 1383,
+     "exp": 4.9,
+     "ratio": 1.2
+    },
+    {
+     "cand": "سكن",
+     "joint": 8,
+     "freq": 68,
+     "exp": 0.2,
+     "ratio": 33.3
+    },
+    {
+     "cand": "ملك",
+     "joint": 3,
+     "freq": 191,
+     "exp": 0.7,
+     "ratio": 4.5
+    },
+    {
+     "cand": "حسن",
+     "joint": 4,
+     "freq": 177,
+     "exp": 0.6,
+     "ratio": 6.4
+    }
+   ],
+   "raw_winner": "ءله",
+   "controlled_winner": "سكن"
+  },
+  "عهد": {
+   "member": 8,
+   "gloss": "covenant",
+   "freq": 36,
+   "slate": [
+    {
+     "cand": "ءله",
+     "joint": 19,
+     "freq": 1879,
+     "exp": 10.8,
+     "ratio": 1.8
+    },
+    {
+     "cand": "قول",
+     "joint": 7,
+     "freq": 1383,
+     "exp": 8.0,
+     "ratio": 0.9
+    },
+    {
+     "cand": "نقض",
+     "joint": 5,
+     "freq": 9,
+     "exp": 0.1,
+     "ratio": 96.2
+    },
+    {
+     "cand": "وفي",
+     "joint": 9,
+     "freq": 64,
+     "exp": 0.4,
+     "ratio": 24.4
+    },
+    {
+     "cand": "وثق",
+     "joint": 3,
+     "freq": 29,
+     "exp": 0.2,
+     "ratio": 17.9
+    }
+   ],
+   "raw_winner": "ءله",
+   "controlled_winner": "نقض"
+  },
+  "سجد": {
+   "member": 9,
+   "gloss": "prostrate",
+   "freq": 81,
+   "slate": [
+    {
+     "cand": "ءله",
+     "joint": 34,
+     "freq": 1879,
+     "exp": 24.4,
+     "ratio": 1.4
+    },
+    {
+     "cand": "قول",
+     "joint": 22,
+     "freq": 1383,
+     "exp": 18.0,
+     "ratio": 1.2
+    },
+    {
+     "cand": "ركع",
+     "joint": 6,
+     "freq": 10,
+     "exp": 0.1,
+     "ratio": 46.2
+    },
+    {
+     "cand": "خرر",
+     "joint": 4,
+     "freq": 12,
+     "exp": 0.2,
+     "ratio": 25.7
+    },
+    {
+     "cand": "وجه",
+     "joint": 6,
+     "freq": 71,
+     "exp": 0.9,
+     "ratio": 6.5
+    }
+   ],
+   "raw_winner": "ءله",
+   "controlled_winner": "ركع"
+  },
+  "نهر": {
+   "member": 10,
+   "gloss": "river",
+   "freq": 102,
+   "slate": [
+    {
+     "cand": "ءله",
+     "joint": 43,
+     "freq": 1879,
+     "exp": 30.7,
+     "ratio": 1.4
+    },
+    {
+     "cand": "جري",
+     "joint": 45,
+     "freq": 64,
+     "exp": 1.0,
+     "ratio": 43.0
+    },
+    {
+     "cand": "تحت",
+     "joint": 40,
+     "freq": 50,
+     "exp": 0.8,
+     "ratio": 48.9
+    },
+    {
+     "cand": "خلد",
+     "joint": 22,
+     "freq": 86,
+     "exp": 1.4,
+     "ratio": 15.6
+    },
+    {
+     "cand": "عسل",
+     "joint": 1,
+     "freq": 1,
+     "exp": 0.0,
+     "ratio": 61.1
+    }
+   ],
+   "raw_winner": "جري",
+   "controlled_winner": "تحت"
+  },
+  "شفع": {
+   "member": 11,
+   "gloss": "intercede",
+   "freq": 26,
+   "slate": [
+    {
+     "cand": "ءله",
+     "joint": 10,
+     "freq": 1879,
+     "exp": 7.8,
+     "ratio": 1.3
+    },
+    {
+     "cand": "قول",
+     "joint": 6,
+     "freq": 1383,
+     "exp": 5.8,
+     "ratio": 1.0
+    },
+    {
+     "cand": "نفع",
+     "joint": 5,
+     "freq": 49,
+     "exp": 0.2,
+     "ratio": 24.5
+    },
+    {
+     "cand": "ذنب",
+     "joint": 0,
+     "freq": 37,
+     "exp": 0.2,
+     "ratio": 0.0
+    },
+    {
+     "cand": "قبل",
+     "joint": 4,
+     "freq": 282,
+     "exp": 1.2,
+     "ratio": 3.4
+    }
+   ],
+   "raw_winner": "ءله",
+   "controlled_winner": "نفع"
+  },
+  "قرض": {
+   "member": 12,
+   "gloss": "loan",
+   "freq": 7,
+   "slate": [
+    {
+     "cand": "ءله",
+     "joint": 7,
+     "freq": 1879,
+     "exp": 2.1,
+     "ratio": 3.3
+    },
+    {
+     "cand": "قول",
+     "joint": 1,
+     "freq": 1383,
+     "exp": 1.6,
+     "ratio": 0.6
+    },
+    {
+     "cand": "حسن",
+     "joint": 6,
+     "freq": 177,
+     "exp": 0.2,
+     "ratio": 30.2
+    },
+    {
+     "cand": "ضعف",
+     "joint": 4,
+     "freq": 45,
+     "exp": 0.1,
+     "ratio": 79.2
+    },
+    {
+     "cand": "جزي",
+     "joint": 0,
+     "freq": 109,
+     "exp": 0.1,
+     "ratio": 0.0
+    }
+   ],
+   "raw_winner": "ءله",
+   "controlled_winner": "حسن"
+  }
+ }
+}

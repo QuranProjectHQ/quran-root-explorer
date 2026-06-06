@@ -1,0 +1,49 @@
+# ============================================================ L6 SYNTHESIS
+prs=deck()
+titleslide(prs,"THE DISJOINT LETTERS · Lecture 17","Synthesis — the validated pointer model",
+ "Putting it together: the muqaṭṭaʿāt are a validated POSITIONAL/ORGANIZATIONAL pointer — an index over contiguous sūra-families in both muṣḥaf and revelation order, flagging the long sūras — but not a semantic or frequency code.",
+ "A single, robust, all-inclusive latent feature that vindicates the project's meta-thesis.")
+s=Tt(prs,"The result in one sentence")
+two(s,[L("A POSITIONAL INDEX",18,True,TEAL),L("The disjoint letters tag contiguous families of (long) sūras in book and revelation order. Validated over all 29 with a label-permutation null, omnibus p≈2×10⁻⁵.",16.5,True,NAVY)],
+ [L("NOT A CODE",18,True,RED),L("They do not encode a shared theme (p≈0.27), a shared length (p≈0.29), or a letter-frequency miracle (0/29). Positional, not semantic.",16.5,True,NAVY)],sp=0.5,fa=TINT,fb=REDT)
+figslide(prs,"The whole study on one axis","L6_01_final_scores.png",
+ [L("THREE PASS, THREE FAIL",18,True,NAVY),L("Contiguity (both orders) and the long-sūra flag clear the threshold by a wide margin; theme, length-per-tag, and the frequency code fall below it. The verdict, at a glance.",16.5,True,TEAL)])
+figslide(prs,"The validated pointer model","L6_02_pointer_model.png",
+ [L("WHAT A TAG DOES",18,True,TEAL),L("One disjoint-letter tag → a contiguous family in the muṣḥaf, a contiguous family in revelation order, all flagged as long sūras. An addressing system, not a description.",16.5,True,NAVY)])
+figslide(prs,"The finding in one picture","L6_03_dual_map.png",
+ [L("INDEXED ON BOTH AXES",18,True,AMBER),L("Every family is compact in book order (top) and revelation order (bottom) at once. This single image is the course's central claim made visible.",16.5,True,NAVY)])
+figslide(prs,"Effect sizes behind the p-values","L6_07_effect_sizes.png",
+ [L("NOT JUST SIGNIFICANT — LARGE",18,True,NAVY),L("Observed within-family distances are a fraction of the null mean; muqaṭṭaʿāt median length dwarfs the rest. The effects are big, not merely statistically detectable.",16.5,True,TEAL)])
+figslide(prs,"Boundary variants — a live hypothesis","L6_05_boundary_variants.png",
+ [L("المص AND المر",18,True,AMBER),L("Mixed tags sit at the seams: المص (7) between the ALM and ALR regions; المر (13) inside the الر run. Suggestive of transition-markers — the next round's formal test.",16.5,True,NAVY)])
+figslide(prs,"Known to scholarship vs added here","L6_06_known_vs_added.png",
+ [L("THE HONEST LEDGER",18,True,TEAL),L("The families themselves are anciently known. What this study adds: rigorous label-permutation validation, the quantified nuzūl-contiguity (the novel part), and the long-sūra flag — over all 29.",16.5,True,NAVY)])
+figslide(prs,"The meta-thesis, a third time","L6_04_metathesis.png",
+ [L("RELATIONAL, NOT CONTENT",18,True,NAVY),L("Biology (order), signal (refrains), disjoint letters (contiguity): the Qur'an's detectable latent structure lives in arrangement, not in local content statistics. Three independent studies, one lesson.",16.5,True,TEAL)])
+figslide(prs,"A reproducible pipeline","L6_08_pipeline.png",
+ [L("FROM DATA TO VERDICT",18,True,AMBER),L("Book6.xlsx → root anchor → families → label-permutation null → p-values → read back. Fixed seed, scripted tests; re-running reproduces every number in the course.",16.5,True,NAVY)])
+figslide(prs,"Open questions","L6_09_future.png",
+ [L("WHERE NEXT",18,True,TEAL),L("Formal tests of the boundary variants; an external Arabic acrostic baseline for the single-letter leads; a cleaner-orthography re-run for ق, ن, ص; and a 2-D corpus-graph view of the families.",16.5,True,NAVY)])
+figslide(prs,"The one-line verdict","L6_10_verdict.png",
+ [L("THE COURSE, DISTILLED",18,True,NAVY),L("The muqaṭṭaʿāt are a validated positional pointer: an index over contiguous sūra-families in muṣḥaf and revelation order — not a semantic code, not a frequency miracle.",16.5,True,TEAL)])
+s=slide(prs); audit(s,"A single robust latent feature: positional/organizational indexing, validated over all 29 (p≈2×10⁻⁵).","Any semantic or numerological reading — refuted or unsupported by the controlled tests.","The deeper 'why' of the letters' specific forms — beyond their tested organizational role — remains open.")
+s=slide(prs); takeaway(s,"The strongest claims are the ones that survived every honest attempt to kill them.","The disjoint letters are the project's clearest latent feature — purely relational, exactly as the meta-thesis predicts.")
+s=Tt(prs,"Key numbers (synthesis)")
+two(s,[L("VALIDATED",18,True,TEAL),L("Contiguity muṣḥaf & nuzūl (p≈2×10⁻⁵, all 29); long-sūra flag (p≈2×10⁻⁵). Robust, all-inclusive.",16.5,True,NAVY)],
+ [L("REFUTED / UNSUPPORTED",18,True,RED),L("Shared theme (p≈0.27); shared length per tag (p≈0.29); letter-frequency code (0/29). Positional only.",16.5,True,NAVY)],sp=0.5,fa=TINT,fb=REDT)
+s=Tt(prs,"Read it back — the model in verses")
+two(s,[L("THE INDEX AT WORK",18,True,TEAL),L("«حمٓ» (40–46, nuzūl 60–66) and «الٓرٓ» (10–15, nuzūl 51–54) — each tag bundles a contiguous family of long sūras.",16.5,True,NAVY)],
+ [L("NOT A MESSAGE",18,True,AMBER),L("«قٓ ۚ وَٱلْقُرْءَانِ ٱلْمَجِيدِ» (50:1): even the lone real letter-signal (ق) marks, it does not narrate.",16.5,True,NAVY)],sp=0.5,fa=TINT,fb=AMBERT)
+s=Tt(prs,"What is known vs added")
+two(s,[L("KNOWN",18,True,GREY),L("The families themselves (Ḥawāmīm, Alif-Lām-Mīm) are anciently recognized in scholarship.",16.5,True,NAVY)],
+ [L("ADDED HERE",18,True,TEAL),L("Rigorous label-permutation validation, the quantified nuzūl-contiguity (novel), and the long-sūra flag — over all 29.",16.5,True,NAVY)],sp=0.5,fa=TINT2,fb=TINT)
+s=Tt(prs,"The meta-thesis, restated")
+two(s,[L("RELATIONAL, NOT CONTENT",18,True,NAVY),L("Biology (order p<0.003), signal (refrains 8.8×), disjoint letters (contiguity p≈2×10⁻⁵): structure lives in arrangement.",16.5,True,TEAL)],
+ [L("WHY IT MATTERS",18,True,AMBER),L("It tells us where to look next: the productive object is the sūra-sequence / corpus graph, not local token statistics.",16.5,True,NAVY)],sp=0.5,fa=TINT,fb=AMBERT)
+s=Tt(prs,"A common pitfall")
+two(s,[L("THE PITFALL",18,True,RED),L("Letting a strong positional result tempt a semantic story. The data licenses the index — and only the index.",16.5,True,NAVY)],
+ [L("THE DISCIPLINE",18,True,TEAL),L("Claim exactly what survived the tests: a validated positional/organizational pointer. Nothing more.",16.5,True,NAVY)],sp=0.5,fa=REDT,fb=TINT)
+s=Tt(prs,"For discussion & close")
+two(s,[L("QUESTIONS",18,True,AMBER),L("• Why does a purely positional pointer still count as a real latent feature?  • How would you formally test the boundary variants?  • Where should the project look next — and why the corpus graph?",16.5)],
+ [L("THE CLOSE",18,True,NAVY),L("The disjoint letters are the project's clearest validated latent feature: an index, not a message — exactly what the meta-thesis predicts.",16.5,True,TEAL)],sp=0.5,fa=AMBERT,fb=TINT2)
+counts[17]=save(prs,"17_Synthesis_DL.pptx")

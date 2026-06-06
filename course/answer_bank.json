@@ -1,0 +1,1435 @@
+{
+  "meta": {
+    "n_ayahs": 6236,
+    "n_roots": 1701,
+    "spine": [
+      "عدل",
+      "ظلم",
+      "قسط",
+      "نفس"
+    ],
+    "companion_A": [
+      "عسر",
+      "يسر",
+      "صبر",
+      "رزق",
+      "شكر"
+    ],
+    "companion_B": [
+      "هدي",
+      "ضلل",
+      "صرط",
+      "رشد"
+    ]
+  },
+  "profiles": {
+    "عدل": {
+      "root": "عدل",
+      "norm": "عدل",
+      "freq_ayahs": 24,
+      "n_surahs": 11,
+      "top3_share": 50.0,
+      "gini": 0.935,
+      "home_surah": {
+        "surah": 6,
+        "prevalence_per_1k": 30.3,
+        "count": 5,
+        "surah_ayahs": 165
+      },
+      "partners": [
+        {
+          "partner": "قسط",
+          "joint": 6,
+          "adj_lift": 48.289,
+          "z": 16.67,
+          "p_mc": null
+        },
+        {
+          "partner": "قرب",
+          "joint": 5,
+          "adj_lift": 9.729,
+          "z": 6.26,
+          "p_mc": null
+        },
+        {
+          "partner": "شهد",
+          "joint": 6,
+          "adj_lift": 8.637,
+          "z": 6.37,
+          "p_mc": null
+        },
+        {
+          "partner": "ذوي",
+          "joint": 6,
+          "adj_lift": 7.811,
+          "z": 5.97,
+          "p_mc": null
+        },
+        {
+          "partner": "وحد",
+          "joint": 5,
+          "adj_lift": 5.982,
+          "z": 4.56,
+          "p_mc": null
+        },
+        {
+          "partner": "ءمر",
+          "joint": 6,
+          "adj_lift": 4.701,
+          "z": 4.18,
+          "p_mc": null
+        },
+        {
+          "partner": "وقي",
+          "joint": 6,
+          "adj_lift": 4.483,
+          "z": 4.03,
+          "p_mc": null
+        },
+        {
+          "partner": "ءخر",
+          "joint": 5,
+          "adj_lift": 3.658,
+          "z": 3.11,
+          "p_mc": null
+        }
+      ]
+    },
+    "ظلم": {
+      "root": "ظلم",
+      "norm": "ظلم",
+      "freq_ayahs": 290,
+      "n_surahs": 59,
+      "top3_share": 21.7,
+      "gini": 0.738,
+      "home_surah": {
+        "surah": 14,
+        "prevalence_per_1k": 173.1,
+        "count": 9,
+        "surah_ayahs": 52
+      },
+      "partners": [
+        {
+          "partner": "عجل",
+          "joint": 9,
+          "adj_lift": 2.997,
+          "z": 3.46,
+          "p_mc": null
+        },
+        {
+          "partner": "نفس",
+          "joint": 55,
+          "adj_lift": 2.985,
+          "z": 8.56,
+          "p_mc": null
+        },
+        {
+          "partner": "فري",
+          "joint": 11,
+          "adj_lift": 2.985,
+          "z": 3.81,
+          "p_mc": null
+        },
+        {
+          "partner": "قري",
+          "joint": 10,
+          "adj_lift": 2.714,
+          "z": 3.29,
+          "p_mc": null
+        },
+        {
+          "partner": "كسب",
+          "joint": 11,
+          "adj_lift": 2.686,
+          "z": 3.42,
+          "p_mc": null
+        },
+        {
+          "partner": "هلك",
+          "joint": 11,
+          "adj_lift": 2.559,
+          "z": 3.24,
+          "p_mc": null
+        },
+        {
+          "partner": "وفي",
+          "joint": 11,
+          "adj_lift": 2.519,
+          "z": 3.18,
+          "p_mc": null
+        },
+        {
+          "partner": "نور",
+          "joint": 28,
+          "adj_lift": 2.358,
+          "z": 4.69,
+          "p_mc": null
+        }
+      ]
+    },
+    "قسط": {
+      "root": "قسط",
+      "norm": "قسط",
+      "freq_ayahs": 22,
+      "n_surahs": 15,
+      "top3_share": 36.4,
+      "gini": 0.899,
+      "home_surah": {
+        "surah": 10,
+        "prevalence_per_1k": 27.5,
+        "count": 3,
+        "surah_ayahs": 109
+      },
+      "partners": [
+        {
+          "partner": "عدل",
+          "joint": 6,
+          "adj_lift": 48.289,
+          "z": 16.67,
+          "p_mc": null
+        },
+        {
+          "partner": "وزن",
+          "joint": 5,
+          "adj_lift": 45.99,
+          "z": 14.83,
+          "p_mc": null
+        },
+        {
+          "partner": "حبب",
+          "joint": 4,
+          "adj_lift": 9.09,
+          "z": 5.37,
+          "p_mc": null
+        },
+        {
+          "partner": "دين",
+          "joint": 4,
+          "adj_lift": 8.881,
+          "z": 5.29,
+          "p_mc": null
+        },
+        {
+          "partner": "شهد",
+          "joint": 4,
+          "adj_lift": 6.282,
+          "z": 4.22,
+          "p_mc": null
+        },
+        {
+          "partner": "قوم",
+          "joint": 10,
+          "adj_lift": 3.235,
+          "z": 3.93,
+          "p_mc": null
+        }
+      ]
+    },
+    "نفس": {
+      "root": "نفس",
+      "norm": "نفس",
+      "freq_ayahs": 270,
+      "n_surahs": 63,
+      "top3_share": 24.1,
+      "gini": 0.733,
+      "home_surah": {
+        "surah": 59,
+        "prevalence_per_1k": 125.0,
+        "count": 3,
+        "surah_ayahs": 24
+      },
+      "partners": [
+        {
+          "partner": "جهد",
+          "joint": 10,
+          "adj_lift": 4.372,
+          "z": 5.1,
+          "p_mc": null
+        },
+        {
+          "partner": "وسع",
+          "joint": 8,
+          "adj_lift": 4.342,
+          "z": 4.54,
+          "p_mc": null
+        },
+        {
+          "partner": "وفي",
+          "joint": 16,
+          "adj_lift": 3.935,
+          "z": 5.92,
+          "p_mc": null
+        },
+        {
+          "partner": "كسب",
+          "joint": 15,
+          "adj_lift": 3.935,
+          "z": 5.74,
+          "p_mc": null
+        },
+        {
+          "partner": "هجر",
+          "joint": 6,
+          "adj_lift": 3.497,
+          "z": 3.27,
+          "p_mc": null
+        },
+        {
+          "partner": "مول",
+          "joint": 17,
+          "adj_lift": 3.344,
+          "z": 5.29,
+          "p_mc": null
+        },
+        {
+          "partner": "زوج",
+          "joint": 15,
+          "adj_lift": 3.279,
+          "z": 4.88,
+          "p_mc": null
+        },
+        {
+          "partner": "ظلم",
+          "joint": 55,
+          "adj_lift": 2.985,
+          "z": 8.56,
+          "p_mc": null
+        }
+      ]
+    },
+    "عسر": {
+      "root": "عسر",
+      "norm": "عسر",
+      "freq_ayahs": 12,
+      "n_surahs": 9,
+      "top3_share": 50.0,
+      "gini": 0.934,
+      "home_surah": null,
+      "partners": [
+        {
+          "partner": "يسر",
+          "joint": 6,
+          "adj_lift": 53.118,
+          "z": 17.52,
+          "p_mc": null
+        }
+      ]
+    },
+    "يسر": {
+      "root": "يسر",
+      "norm": "يسر",
+      "freq_ayahs": 40,
+      "n_surahs": 27,
+      "top3_share": 27.5,
+      "gini": 0.823,
+      "home_surah": {
+        "surah": 54,
+        "prevalence_per_1k": 72.7,
+        "count": 4,
+        "surah_ayahs": 55
+      },
+      "partners": [
+        {
+          "partner": "قرء",
+          "joint": 6,
+          "adj_lift": 8.069,
+          "z": 6.1,
+          "p_mc": null
+        }
+      ]
+    },
+    "صبر": {
+      "root": "صبر",
+      "norm": "صبر",
+      "freq_ayahs": 93,
+      "n_surahs": 45,
+      "top3_share": 24.7,
+      "gini": 0.754,
+      "home_surah": {
+        "surah": 18,
+        "prevalence_per_1k": 72.7,
+        "count": 8,
+        "surah_ayahs": 110
+      },
+      "partners": [
+        {
+          "partner": "غرب",
+          "joint": 4,
+          "adj_lift": 10.751,
+          "z": 5.95,
+          "p_mc": null
+        },
+        {
+          "partner": "بلو",
+          "joint": 4,
+          "adj_lift": 5.376,
+          "z": 3.78,
+          "p_mc": null
+        },
+        {
+          "partner": "ضعف",
+          "joint": 4,
+          "adj_lift": 4.062,
+          "z": 3.04,
+          "p_mc": null
+        },
+        {
+          "partner": "ءجر",
+          "joint": 8,
+          "adj_lift": 3.692,
+          "z": 3.97,
+          "p_mc": null
+        },
+        {
+          "partner": "صلو",
+          "joint": 7,
+          "adj_lift": 3.554,
+          "z": 3.59,
+          "p_mc": null
+        },
+        {
+          "partner": "طوع",
+          "joint": 9,
+          "adj_lift": 3.485,
+          "z": 4.0,
+          "p_mc": null
+        }
+      ]
+    },
+    "رزق": {
+      "root": "رزق",
+      "norm": "رزق",
+      "freq_ayahs": 109,
+      "n_surahs": 44,
+      "top3_share": 21.1,
+      "gini": 0.748,
+      "home_surah": {
+        "surah": 65,
+        "prevalence_per_1k": 250.0,
+        "count": 3,
+        "surah_ayahs": 12
+      },
+      "partners": [
+        {
+          "partner": "بسط",
+          "joint": 10,
+          "adj_lift": 16.95,
+          "z": 12.25,
+          "p_mc": null
+        },
+        {
+          "partner": "طيب",
+          "joint": 15,
+          "adj_lift": 12.713,
+          "z": 12.73,
+          "p_mc": null
+        },
+        {
+          "partner": "ثمر",
+          "joint": 7,
+          "adj_lift": 12.405,
+          "z": 8.57,
+          "p_mc": null
+        },
+        {
+          "partner": "نفق",
+          "joint": 16,
+          "adj_lift": 7.253,
+          "z": 9.29,
+          "p_mc": null
+        },
+        {
+          "partner": "كرم",
+          "joint": 7,
+          "adj_lift": 5.933,
+          "z": 5.36,
+          "p_mc": null
+        },
+        {
+          "partner": "طعم",
+          "joint": 5,
+          "adj_lift": 4.754,
+          "z": 3.85,
+          "p_mc": null
+        },
+        {
+          "partner": "قدر",
+          "joint": 14,
+          "adj_lift": 4.511,
+          "z": 6.19,
+          "p_mc": null
+        },
+        {
+          "partner": "ءكل",
+          "joint": 11,
+          "adj_lift": 4.246,
+          "z": 5.23,
+          "p_mc": null
+        }
+      ]
+    },
+    "شكر": {
+      "root": "شكر",
+      "norm": "شكر",
+      "freq_ayahs": 69,
+      "n_surahs": 35,
+      "top3_share": 23.2,
+      "gini": 0.793,
+      "home_surah": {
+        "surah": 76,
+        "prevalence_per_1k": 96.8,
+        "count": 3,
+        "surah_ayahs": 31
+      },
+      "partners": [
+        {
+          "partner": "فءد",
+          "joint": 5,
+          "adj_lift": 20.529,
+          "z": 9.64,
+          "p_mc": null
+        },
+        {
+          "partner": "فلك",
+          "joint": 6,
+          "adj_lift": 14.781,
+          "z": 8.78,
+          "p_mc": null
+        },
+        {
+          "partner": "طيب",
+          "joint": 7,
+          "adj_lift": 9.372,
+          "z": 7.24,
+          "p_mc": null
+        },
+        {
+          "partner": "بحر",
+          "joint": 6,
+          "adj_lift": 9.238,
+          "z": 6.64,
+          "p_mc": null
+        },
+        {
+          "partner": "فضل",
+          "joint": 12,
+          "adj_lift": 8.033,
+          "z": 8.6,
+          "p_mc": null
+        },
+        {
+          "partner": "سكن",
+          "joint": 7,
+          "adj_lift": 6.34,
+          "z": 5.61,
+          "p_mc": null
+        },
+        {
+          "partner": "قلل",
+          "joint": 6,
+          "adj_lift": 4.993,
+          "z": 4.38,
+          "p_mc": null
+        },
+        {
+          "partner": "حمل",
+          "joint": 4,
+          "adj_lift": 4.927,
+          "z": 3.54,
+          "p_mc": null
+        }
+      ]
+    },
+    "هدي": {
+      "root": "هدي",
+      "norm": "هدي",
+      "freq_ayahs": 268,
+      "n_surahs": 62,
+      "top3_share": 22.4,
+      "gini": 0.73,
+      "home_surah": {
+        "surah": 61,
+        "prevalence_per_1k": 214.3,
+        "count": 3,
+        "surah_ayahs": 14
+      },
+      "partners": [
+        {
+          "partner": "صرط",
+          "joint": 24,
+          "adj_lift": 8.457,
+          "z": 12.57,
+          "p_mc": null
+        },
+        {
+          "partner": "حجج",
+          "joint": 8,
+          "adj_lift": 4.879,
+          "z": 4.97,
+          "p_mc": null
+        },
+        {
+          "partner": "ضلل",
+          "joint": 52,
+          "adj_lift": 4.85,
+          "z": 12.64,
+          "p_mc": null
+        },
+        {
+          "partner": "رشد",
+          "joint": 5,
+          "adj_lift": 4.173,
+          "z": 3.47,
+          "p_mc": null
+        },
+        {
+          "partner": "عمي",
+          "joint": 7,
+          "adj_lift": 3.7,
+          "z": 3.72,
+          "p_mc": null
+        },
+        {
+          "partner": "هوي",
+          "joint": 7,
+          "adj_lift": 3.0,
+          "z": 3.06,
+          "p_mc": null
+        },
+        {
+          "partner": "سبل",
+          "joint": 29,
+          "adj_lift": 2.804,
+          "z": 5.82,
+          "p_mc": null
+        },
+        {
+          "partner": "حرم",
+          "joint": 12,
+          "adj_lift": 2.68,
+          "z": 3.56,
+          "p_mc": null
+        }
+      ]
+    },
+    "ضلل": {
+      "root": "ضلل",
+      "norm": "ضلل",
+      "freq_ayahs": 170,
+      "n_surahs": 56,
+      "top3_share": 19.4,
+      "gini": 0.702,
+      "home_surah": {
+        "surah": 14,
+        "prevalence_per_1k": 115.4,
+        "count": 6,
+        "surah_ayahs": 52
+      },
+      "partners": [
+        {
+          "partner": "سعر",
+          "joint": 4,
+          "adj_lift": 5.262,
+          "z": 3.72,
+          "p_mc": null
+        },
+        {
+          "partner": "ثني",
+          "joint": 5,
+          "adj_lift": 5.208,
+          "z": 4.12,
+          "p_mc": null
+        },
+        {
+          "partner": "سبل",
+          "joint": 34,
+          "adj_lift": 5.182,
+          "z": 10.73,
+          "p_mc": null
+        },
+        {
+          "partner": "فري",
+          "joint": 11,
+          "adj_lift": 5.092,
+          "z": 6.02,
+          "p_mc": null
+        },
+        {
+          "partner": "هدي",
+          "joint": 52,
+          "adj_lift": 4.85,
+          "z": 12.64,
+          "p_mc": null
+        },
+        {
+          "partner": "هوي",
+          "joint": 7,
+          "adj_lift": 4.729,
+          "z": 4.54,
+          "p_mc": null
+        },
+        {
+          "partner": "شري",
+          "joint": 4,
+          "adj_lift": 4.347,
+          "z": 3.21,
+          "p_mc": null
+        },
+        {
+          "partner": "عمي",
+          "joint": 5,
+          "adj_lift": 4.166,
+          "z": 3.47,
+          "p_mc": null
+        }
+      ]
+    },
+    "صرط": {
+      "root": "صرط",
+      "norm": "صرط",
+      "freq_ayahs": 45,
+      "n_surahs": 25,
+      "top3_share": 24.4,
+      "gini": 0.832,
+      "home_surah": {
+        "surah": 36,
+        "prevalence_per_1k": 36.1,
+        "count": 3,
+        "surah_ayahs": 83
+      },
+      "partners": [
+        {
+          "partner": "هدي",
+          "joint": 24,
+          "adj_lift": 8.457,
+          "z": 12.57,
+          "p_mc": null
+        },
+        {
+          "partner": "سوو",
+          "joint": 5,
+          "adj_lift": 5.902,
+          "z": 4.51,
+          "p_mc": null
+        },
+        {
+          "partner": "قوم",
+          "joint": 33,
+          "adj_lift": 5.22,
+          "z": 10.63,
+          "p_mc": null
+        }
+      ]
+    },
+    "رشد": {
+      "root": "رشد",
+      "norm": "رشد",
+      "freq_ayahs": 19,
+      "n_surahs": 9,
+      "top3_share": 57.9,
+      "gini": 0.945,
+      "home_surah": {
+        "surah": 72,
+        "prevalence_per_1k": 142.9,
+        "count": 4,
+        "surah_ayahs": 28
+      },
+      "partners": [
+        {
+          "partner": "هدي",
+          "joint": 5,
+          "adj_lift": 4.173,
+          "z": 3.47,
+          "p_mc": null
+        }
+      ]
+    },
+    "كفر": {
+      "root": "كفر",
+      "norm": "كفر",
+      "freq_ayahs": 465,
+      "n_surahs": 77,
+      "top3_share": 23.0,
+      "gini": 0.689,
+      "home_surah": {
+        "surah": 60,
+        "prevalence_per_1k": 538.5,
+        "count": 7,
+        "surah_ayahs": 13
+      },
+      "partners": [
+        {
+          "partner": "عتد",
+          "joint": 8,
+          "adj_lift": 4.569,
+          "z": 4.73,
+          "p_mc": null
+        },
+        {
+          "partner": "ودد",
+          "joint": 10,
+          "adj_lift": 3.264,
+          "z": 3.97,
+          "p_mc": null
+        },
+        {
+          "partner": "صير",
+          "joint": 10,
+          "adj_lift": 3.151,
+          "z": 3.84,
+          "p_mc": null
+        },
+        {
+          "partner": "صدد",
+          "joint": 14,
+          "adj_lift": 3.12,
+          "z": 4.5,
+          "p_mc": null
+        },
+        {
+          "partner": "عجب",
+          "joint": 8,
+          "adj_lift": 3.046,
+          "z": 3.32,
+          "p_mc": null
+        },
+        {
+          "partner": "هون",
+          "joint": 8,
+          "adj_lift": 2.812,
+          "z": 3.06,
+          "p_mc": null
+        },
+        {
+          "partner": "ءلم",
+          "joint": 22,
+          "adj_lift": 2.754,
+          "z": 4.97,
+          "p_mc": null
+        },
+        {
+          "partner": "لعن",
+          "joint": 10,
+          "adj_lift": 2.538,
+          "z": 3.06,
+          "p_mc": null
+        }
+      ]
+    },
+    "حقق": {
+      "root": "حقق",
+      "norm": "حقق",
+      "freq_ayahs": 263,
+      "n_surahs": 59,
+      "top3_share": 19.4,
+      "gini": 0.703,
+      "home_surah": {
+        "surah": 46,
+        "prevalence_per_1k": 200.0,
+        "count": 7,
+        "surah_ayahs": 35
+      },
+      "partners": [
+        {
+          "partner": "بطل",
+          "joint": 15,
+          "adj_lift": 7.128,
+          "z": 8.89,
+          "p_mc": null
+        },
+        {
+          "partner": "مري",
+          "joint": 7,
+          "adj_lift": 5.953,
+          "z": 5.37,
+          "p_mc": null
+        },
+        {
+          "partner": "كره",
+          "joint": 8,
+          "adj_lift": 3.693,
+          "z": 3.97,
+          "p_mc": null
+        },
+        {
+          "partner": "تلو",
+          "joint": 12,
+          "adj_lift": 3.179,
+          "z": 4.24,
+          "p_mc": null
+        },
+        {
+          "partner": "وعد",
+          "joint": 23,
+          "adj_lift": 2.859,
+          "z": 5.28,
+          "p_mc": null
+        },
+        {
+          "partner": "فري",
+          "joint": 9,
+          "adj_lift": 2.693,
+          "z": 3.1,
+          "p_mc": null
+        },
+        {
+          "partner": "جيء",
+          "joint": 40,
+          "adj_lift": 2.467,
+          "z": 5.93,
+          "p_mc": null
+        },
+        {
+          "partner": "غير",
+          "joint": 22,
+          "adj_lift": 2.435,
+          "z": 4.32,
+          "p_mc": null
+        }
+      ]
+    },
+    "بطل": {
+      "root": "بطل",
+      "norm": "بطل",
+      "freq_ayahs": 34,
+      "n_surahs": 24,
+      "top3_share": 26.5,
+      "gini": 0.836,
+      "home_surah": {
+        "surah": 29,
+        "prevalence_per_1k": 43.5,
+        "count": 3,
+        "surah_ayahs": 69
+      },
+      "partners": [
+        {
+          "partner": "مول",
+          "joint": 5,
+          "adj_lift": 7.811,
+          "z": 5.45,
+          "p_mc": null
+        },
+        {
+          "partner": "حقق",
+          "joint": 15,
+          "adj_lift": 7.128,
+          "z": 8.89,
+          "p_mc": null
+        },
+        {
+          "partner": "ءكل",
+          "joint": 4,
+          "adj_lift": 4.95,
+          "z": 3.55,
+          "p_mc": null
+        },
+        {
+          "partner": "ءنس",
+          "joint": 8,
+          "adj_lift": 3.115,
+          "z": 3.39,
+          "p_mc": null
+        }
+      ]
+    },
+    "وزن": {
+      "root": "وزن",
+      "norm": "وزن",
+      "freq_ayahs": 21,
+      "n_surahs": 14,
+      "top3_share": 38.1,
+      "gini": 0.906,
+      "home_surah": {
+        "surah": 55,
+        "prevalence_per_1k": 38.5,
+        "count": 3,
+        "surah_ayahs": 78
+      },
+      "partners": [
+        {
+          "partner": "قسط",
+          "joint": 5,
+          "adj_lift": 45.99,
+          "z": 14.83,
+          "p_mc": null
+        },
+        {
+          "partner": "ثقل",
+          "joint": 4,
+          "adj_lift": 31.131,
+          "z": 10.8,
+          "p_mc": null
+        },
+        {
+          "partner": "خسر",
+          "joint": 4,
+          "adj_lift": 13.49,
+          "z": 6.8,
+          "p_mc": null
+        },
+        {
+          "partner": "وفي",
+          "joint": 4,
+          "adj_lift": 12.647,
+          "z": 6.55,
+          "p_mc": null
+        },
+        {
+          "partner": "قوم",
+          "joint": 9,
+          "adj_lift": 3.051,
+          "z": 3.52,
+          "p_mc": null
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "a": "عدل",
+      "b": "ظلم",
+      "obs": 1,
+      "nA": 24,
+      "nB": 290,
+      "raw_lift": 0.896,
+      "E_len": 1.638,
+      "adj_lift": 0.611,
+      "z": -0.5,
+      "p_mc": 0.8388,
+      "tier": "Independent / quarantined"
+    },
+    {
+      "a": "عدل",
+      "b": "قسط",
+      "obs": 6,
+      "nA": 24,
+      "nB": 22,
+      "raw_lift": 70.864,
+      "E_len": 0.124,
+      "adj_lift": 48.289,
+      "z": 16.67,
+      "p_mc": 0.0007,
+      "tier": "Stipulative pair"
+    },
+    {
+      "a": "عدل",
+      "b": "نفس",
+      "obs": 5,
+      "nA": 24,
+      "nB": 270,
+      "raw_lift": 4.812,
+      "E_len": 1.525,
+      "adj_lift": 3.279,
+      "z": 2.82,
+      "p_mc": 0.016,
+      "tier": "Embedded pair"
+    },
+    {
+      "a": "ظلم",
+      "b": "قسط",
+      "obs": 3,
+      "nA": 290,
+      "nB": 22,
+      "raw_lift": 2.932,
+      "E_len": 1.501,
+      "adj_lift": 1.998,
+      "z": 1.22,
+      "p_mc": 0.1799,
+      "tier": "Embedded pair"
+    },
+    {
+      "a": "ظلم",
+      "b": "نفس",
+      "obs": 55,
+      "nA": 290,
+      "nB": 270,
+      "raw_lift": 4.38,
+      "E_len": 18.426,
+      "adj_lift": 2.985,
+      "z": 8.56,
+      "p_mc": 0.0007,
+      "tier": "Embedded pair"
+    },
+    {
+      "a": "قسط",
+      "b": "نفس",
+      "obs": 4,
+      "nA": 22,
+      "nB": 270,
+      "raw_lift": 4.199,
+      "E_len": 1.398,
+      "adj_lift": 2.862,
+      "z": 2.2,
+      "p_mc": 0.044,
+      "tier": "Embedded pair"
+    },
+    {
+      "a": "عسر",
+      "b": "يسر",
+      "obs": 6,
+      "nA": 12,
+      "nB": 40,
+      "raw_lift": 77.95,
+      "E_len": 0.113,
+      "adj_lift": 53.118,
+      "z": 17.52,
+      "p_mc": 0.0007,
+      "tier": "Stipulative pair"
+    },
+    {
+      "a": "عسر",
+      "b": "صبر",
+      "obs": 0,
+      "nA": 12,
+      "nB": 93,
+      "raw_lift": 0.0,
+      "E_len": 0.263,
+      "adj_lift": 0.0,
+      "z": -0.51,
+      "p_mc": 1.0,
+      "tier": "Independent / quarantined"
+    },
+    {
+      "a": "عسر",
+      "b": "رزق",
+      "obs": 1,
+      "nA": 12,
+      "nB": 109,
+      "raw_lift": 4.768,
+      "E_len": 0.308,
+      "adj_lift": 3.249,
+      "z": 1.25,
+      "p_mc": 0.2645,
+      "tier": "Embedded pair"
+    },
+    {
+      "a": "عسر",
+      "b": "شكر",
+      "obs": 1,
+      "nA": 12,
+      "nB": 69,
+      "raw_lift": 7.531,
+      "E_len": 0.195,
+      "adj_lift": 5.132,
+      "z": 1.82,
+      "p_mc": 0.1672,
+      "tier": "Embedded pair"
+    },
+    {
+      "a": "يسر",
+      "b": "صبر",
+      "obs": 0,
+      "nA": 40,
+      "nB": 93,
+      "raw_lift": 0.0,
+      "E_len": 0.875,
+      "adj_lift": 0.0,
+      "z": -0.94,
+      "p_mc": 1.0,
+      "tier": "Independent / quarantined"
+    },
+    {
+      "a": "يسر",
+      "b": "رزق",
+      "obs": 1,
+      "nA": 40,
+      "nB": 109,
+      "raw_lift": 1.43,
+      "E_len": 1.026,
+      "adj_lift": 0.975,
+      "z": -0.03,
+      "p_mc": 0.6329,
+      "tier": "Mild attraction"
+    },
+    {
+      "a": "يسر",
+      "b": "شكر",
+      "obs": 1,
+      "nA": 40,
+      "nB": 69,
+      "raw_lift": 2.259,
+      "E_len": 0.649,
+      "adj_lift": 1.54,
+      "z": 0.43,
+      "p_mc": 0.4763,
+      "tier": "Embedded pair"
+    },
+    {
+      "a": "صبر",
+      "b": "رزق",
+      "obs": 4,
+      "nA": 93,
+      "nB": 109,
+      "raw_lift": 2.461,
+      "E_len": 2.385,
+      "adj_lift": 1.677,
+      "z": 1.05,
+      "p_mc": 0.1972,
+      "tier": "Embedded pair"
+    },
+    {
+      "a": "صبر",
+      "b": "شكر",
+      "obs": 4,
+      "nA": 93,
+      "nB": 69,
+      "raw_lift": 3.887,
+      "E_len": 1.51,
+      "adj_lift": 2.649,
+      "z": 2.03,
+      "p_mc": 0.0533,
+      "tier": "Embedded pair"
+    },
+    {
+      "a": "رزق",
+      "b": "شكر",
+      "obs": 6,
+      "nA": 109,
+      "nB": 69,
+      "raw_lift": 4.975,
+      "E_len": 1.77,
+      "adj_lift": 3.39,
+      "z": 3.18,
+      "p_mc": 0.0067,
+      "tier": "Embedded pair"
+    },
+    {
+      "a": "هدي",
+      "b": "ضلل",
+      "obs": 52,
+      "nA": 268,
+      "nB": 170,
+      "raw_lift": 7.117,
+      "E_len": 10.721,
+      "adj_lift": 4.85,
+      "z": 12.64,
+      "p_mc": 0.0007,
+      "tier": "Embedded pair"
+    },
+    {
+      "a": "هدي",
+      "b": "صرط",
+      "obs": 24,
+      "nA": 268,
+      "nB": 45,
+      "raw_lift": 12.41,
+      "E_len": 2.838,
+      "adj_lift": 8.457,
+      "z": 12.57,
+      "p_mc": 0.0007,
+      "tier": "Stipulative pair"
+    },
+    {
+      "a": "هدي",
+      "b": "رشد",
+      "obs": 5,
+      "nA": 268,
+      "nB": 19,
+      "raw_lift": 6.123,
+      "E_len": 1.198,
+      "adj_lift": 4.173,
+      "z": 3.47,
+      "p_mc": 0.0053,
+      "tier": "Embedded pair"
+    },
+    {
+      "a": "ضلل",
+      "b": "صرط",
+      "obs": 2,
+      "nA": 170,
+      "nB": 45,
+      "raw_lift": 1.63,
+      "E_len": 1.8,
+      "adj_lift": 1.111,
+      "z": 0.15,
+      "p_mc": 0.5456,
+      "tier": "Mild attraction"
+    },
+    {
+      "a": "ضلل",
+      "b": "رشد",
+      "obs": 1,
+      "nA": 170,
+      "nB": 19,
+      "raw_lift": 1.931,
+      "E_len": 0.76,
+      "adj_lift": 1.316,
+      "z": 0.28,
+      "p_mc": 0.527,
+      "tier": "Mild attraction"
+    },
+    {
+      "a": "صرط",
+      "b": "رشد",
+      "obs": 0,
+      "nA": 45,
+      "nB": 19,
+      "raw_lift": 0.0,
+      "E_len": 0.201,
+      "adj_lift": 0.0,
+      "z": -0.45,
+      "p_mc": 1.0,
+      "tier": "Independent / quarantined"
+    },
+    {
+      "a": "شكر",
+      "b": "كفر",
+      "obs": 7,
+      "nA": 69,
+      "nB": 465,
+      "raw_lift": 1.361,
+      "E_len": 7.55,
+      "adj_lift": 0.927,
+      "z": -0.2,
+      "p_mc": 0.6129,
+      "tier": "Mild attraction"
+    },
+    {
+      "a": "حقق",
+      "b": "بطل",
+      "obs": 15,
+      "nA": 263,
+      "nB": 34,
+      "raw_lift": 10.461,
+      "E_len": 2.104,
+      "adj_lift": 7.128,
+      "z": 8.89,
+      "p_mc": 0.0007,
+      "tier": "Stipulative pair"
+    },
+    {
+      "a": "قسط",
+      "b": "وزن",
+      "obs": 5,
+      "nA": 22,
+      "nB": 21,
+      "raw_lift": 67.489,
+      "E_len": 0.109,
+      "adj_lift": 45.99,
+      "z": 14.83,
+      "p_mc": 0.0007,
+      "tier": "Stipulative pair"
+    },
+    {
+      "a": "نفس",
+      "b": "ظلم",
+      "obs": 55,
+      "nA": 270,
+      "nB": 290,
+      "raw_lift": 4.38,
+      "E_len": 18.426,
+      "adj_lift": 2.985,
+      "z": 8.56,
+      "p_mc": 0.0007,
+      "tier": "Embedded pair"
+    }
+  ],
+  "triples": [
+    {
+      "a": "نفس",
+      "b": "عدل",
+      "d": "قسط",
+      "obs": 2,
+      "E_len": 0.011,
+      "adj_lift": 187.978,
+      "z": 19.29,
+      "p_mc": 0.0007
+    },
+    {
+      "a": "نفس",
+      "b": "ظلم",
+      "d": "قسط",
+      "obs": 2,
+      "E_len": 0.129,
+      "adj_lift": 15.557,
+      "z": 5.22,
+      "p_mc": 0.0067
+    },
+    {
+      "a": "عدل",
+      "b": "قسط",
+      "d": "حقق",
+      "obs": 1,
+      "E_len": 0.01,
+      "adj_lift": 96.491,
+      "z": 9.72,
+      "p_mc": 0.0127
+    },
+    {
+      "a": "صبر",
+      "b": "رزق",
+      "d": "شكر",
+      "obs": 0,
+      "E_len": 0.052,
+      "adj_lift": 0.0,
+      "z": -0.23,
+      "p_mc": 1.0
+    },
+    {
+      "a": "حقق",
+      "b": "هدي",
+      "d": "ضلل",
+      "obs": 5,
+      "E_len": 0.894,
+      "adj_lift": 5.591,
+      "z": 4.34,
+      "p_mc": 0.002
+    },
+    {
+      "a": "عدل",
+      "b": "قسط",
+      "d": "وزن",
+      "obs": 1,
+      "E_len": 0.001,
+      "adj_lift": 1208.43,
+      "z": 34.73,
+      "p_mc": 0.0007
+    }
+  ],
+  "clusters": {
+    "justice_self": {
+      "degree": {
+        "عدل": 1,
+        "ظلم": 1,
+        "قسط": 1,
+        "نفس": 1
+      },
+      "strength": {
+        "عدل": 48.29,
+        "ظلم": 2.98,
+        "قسط": 48.29,
+        "نفس": 2.98
+      }
+    },
+    "hardship_provision": {
+      "degree": {
+        "عسر": 1,
+        "يسر": 1,
+        "صبر": 0,
+        "رزق": 1,
+        "شكر": 1
+      },
+      "strength": {
+        "عسر": 53.12,
+        "يسر": 53.12,
+        "صبر": 0.0,
+        "رزق": 3.39,
+        "شكر": 3.39
+      }
+    },
+    "guidance_path": {
+      "degree": {
+        "هدي": 3,
+        "ضلل": 1,
+        "صرط": 1,
+        "رشد": 1
+      },
+      "strength": {
+        "هدي": 17.48,
+        "ضلل": 4.85,
+        "صرط": 8.46,
+        "رشد": 4.17
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+# ============================================================ L2 THE METHOD
+prs=deck()
+titleslide(prs,"THE DISJOINT LETTERS · Lecture 2","The Method — pointers, the right null, and a false positive",
+ "How do you test whether a tag GROUPS sūras rather than DESCRIBES them? The key is the null. A naïve test compares disjoint-letter sūras to random ones — but they cluster anyway. The decisive test is a LABEL-PERMUTATION null that isolates the specific tag's effect.",
+ "Computed from Book6.xlsx; the same discipline as the wider program — beat the right null, beat a baseline, read back.")
+s=Tt(prs,"Two questions, kept apart")
+two(s,[L("CONTENT",18,True,RED),L("Do the letters of a tag appear unusually inside their sūra? A frequency question — and, as we'll see, a trap.",16.5,True,NAVY)],
+ [L("ORGANIZATION",18,True,TEAL),L("Do same-tag sūras GROUP — cluster in the book and in time? The pointer question — the one that holds.",16.5,True,NAVY)],sp=0.5,fa=REDT,fb=TINT)
+figslide(prs,"The trap: against random chapters, everything clusters","L2_01_trap.png",
+ [L("WHY A NAÏVE TEST MISLEADS",18,True,RED),L("Muqaṭṭaʿāt sūras are mostly Meccan and long, so they sit near each other. Compared to random chapters ANY grouping of them looks clustered (red line far left) — proving nothing about the specific tag.",16.5,True,NAVY)])
+figslide(prs,"The fix: freeze the sūras, shuffle only the labels","L2_08_freeze_shuffle.png",
+ [L("ISOLATING THE TAG",18,True,TEAL),L("Hold the 29 sūras exactly where they are; shuffle WHICH opening each receives, preserving family sizes. Now the test asks: does the REAL tagging group better than a random reassignment of the same tags?",16.5,True,NAVY)])
+figslide(prs,"The label-permutation null — book order","L2_02_labelperm_mushaf.png",
+ [L("OBSERVED IN THE FAR TAIL",18,True,NAVY),L("Across 50,000 relabelings, the real tagging's within-family distance (Δ=6.79) sits far below the entire null cloud. p ≈ 2×10⁻⁵. The grouping is not background clustering — it is the specific tag.",16.5,True,TEAL)])
+figslide(prs,"The same test — revelation order","L2_03_labelperm_nuzul.png",
+ [L("AN INDEPENDENT CONFIRMATION",18,True,AMBER),L("Repeat on nuzūl order. Observed Δ=7.30 again sits beyond the null mass, p ≈ 2×10⁻⁵. Two different orderings, the same verdict — the hallmark of a real effect, not a fluke of one axis.",16.5,True,NAVY)])
+figslide(prs,"A false positive, as a short story","L2_04_falsepos_within.png",
+ [L("THE SEDUCTIVE 'DISCOVERY'",18,True,RED),L("'الٓمٓ sūras are rich in ا, ل, م.' Tested within-chapter, those letters rank near the top — a poster-ready p≤0.001. But the null is wrong: it only asks whether common letters are common.",16.5,True,NAVY)])
+figslide(prs,"The collapse under the right baseline","L2_05_collapse_cross.png",
+ [L("ASK 'MORE THAN NORMAL?'",18,True,TEAL),L("Are the letters MORE frequent than the same letters in OTHER sūras? Enrichment ≈ 1.0× across every family; 0 of 29 significant. ا, ل, م are simply the commonest Arabic letters. The discovery evaporates.",16.5,True,NAVY)])
+figslide(prs,"The p-value stabilizes as you sample the null","L2_06_pvalue_convergence.png",
+ [L("HOW MANY PERMUTATIONS?",18,True,NAVY),L("With too few draws the estimate is noisy; by ~50,000 it settles. We report the converged value. A p-value is an estimate with its own error bar — sample enough that the conclusion is stable.",16.5,True,TEAL)])
+figslide(prs,"Many tests → control the false-discovery rate","L2_10_fdr.png",
+ [L("THE LOOK-ELSEWHERE EFFECT",18,True,AMBER),L("Test 27 letters and some will sparkle by luck. Benjamini–Hochberg keeps the false-discovery rate in check; only م survives — and barely. We declare statistic, null and threshold in advance.",16.5,True,NAVY)])
+figslide(prs,"A real partial signal hides in the single-letter sūras","L2_09_single_letter.png",
+ [L("ق / SŪRAT QĀF",18,True,TEAL),L("The honest exception: in Sūrat Qāf (50), the letter ق is the 3rd-densest of all 114 sūras (top 3.5%); ن in al-Qalam is weaker. A modest, real lead — reported with corrected p, not oversold.",16.5,True,NAVY)])
+figslide(prs,"The validation gauntlet — five gates","L2_07_five_gates.png",
+ [L("WHY IT EARNS BELIEF",18,True,NAVY),L("Verify the families → label-permutation null → confirm in a second ordering → multiple-comparison check → read back to actual sūras. A claim through all five, where the content claim failed, is one you can trust.",16.5,True,TEAL)])
+s=Tt(prs,"Why this method is falsifiable")
+two(s,[L("IT CAN SAY NO",18,True,TEAL),L("The same machinery that confirms contiguity REFUTED the frequency claim (0/29). A method that rejects is trustworthy when it accepts.",16.5,True,NAVY)],
+ [L("THE OPPOSITE OF NUMEROLOGY",18,True,RED),L("Numerology never fails; it bends to fit. Here candidates die — the content link, the frequency claim — and only the pointer survives.",16.5,True,NAVY)],sp=0.5,fa=TINT,fb=REDT)
+appslide(prs,[("① BASELINE","random vs label-perm",TINT,TEAL),("② DRAWS","50,000",AMBERT,AMBER),("③ STATISTIC","within-family Δ",TINT,TEAL),("④ p-VALUE","read the tail",REDT,RED)],
+ "Toggle between a random-chapter baseline (everything looks clustered) and the label-permutation null (only the real tagging survives), and watch the p-value change.")
+s=slide(prs); audit(s,"The label-permutation null is exact, declared, and isolates the specific-tag effect.","The within-chapter frequency claim — a false positive that collapses under the cross-chapter baseline.","Whether the search space is fully covered — we test the main statistics, not every conceivable one.")
+s=slide(prs); takeaway(s,"Sampled nulls, the right baseline, and multiple-comparison control are the daily tools of credible data science.","To test a pointer, freeze the items and shuffle the labels — and never mistake background clustering for a tag effect.")
+s=Tt(prs,"Key numbers (method)")
+two(s,[L("THE NULL",18,True,NAVY),L("29 fixed sūras; 50,000 label permutations; statistic = within-family mean pairwise distance, in muṣḥaf and nuzūl order.",16.5,True,TEAL)],
+ [L("THE FALSE POSITIVE",18,True,AMBER),L("Within-chapter frequency null: p ≤ 0.001 (illusory). Cross-chapter baseline: 0 of 29 significant (refuted).",16.5,True,NAVY)],sp=0.5,fa=TINT,fb=AMBERT)
+s=Tt(prs,"Verify before you validate")
+two(s,[L("VERIFY",18,True,TEAL),L("First, are the families and counts right? Reproduce the 29 sūras and their canonical openings from Book6 before any test runs.",16.5,True,NAVY)],
+ [L("THEN VALIDATE",18,True,AMBER),L("Only then ask whether the grouping is real. A wrong family list would poison every p-value downstream.",16.5,True,NAVY)],sp=0.5,fa=TINT,fb=AMBERT)
+s=Tt(prs,"What counts as validated here")
+three(s,[L("✓ PASSES",17,True,TEAL),L("Beats the label-permutation null in an ordering, survives correction, reads back to real sūras.",16)],
+ [L("✗ FAILS",17,True,RED),L("Generic to Arabic (the frequency claim), or explained by background clustering.",16)],
+ [L("~ DEFER",17,True,AMBER),L("Underpowered (singletons, boundary variants) — flagged as hypotheses, not results.",16)])
+s=Tt(prs,"Dual-domain — the same discipline")
+two(s,[L("عالم التكوين",18,True,AMBER),L("Genomics screens 20,000 genes with FDR; astronomy guards against the look-elsewhere effect. Every field samples nulls and demands baselines.",16.5,True,NAVY)],
+ [L("عالم التدوين",18,True,TEAL),L("We apply the identical machinery to the disjoint letters — reading scripture-as-data with the instruments and skepticism of science.",16.5,True,NAVY)],sp=0.5,fa=AMBERT,fb=TINT)
+counts[2]=save(prs,"02_Method_DL.pptx")

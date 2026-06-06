@@ -1,0 +1,385 @@
+{
+ "meta": {
+  "n_ayahs": 6236,
+  "n_surahs": 114,
+  "n_root_tokens": 51044,
+  "largest_surah": {
+   "surah": 2,
+   "name": "al-Baqara",
+   "ayahs": 286,
+   "root_tokens": 3966
+  },
+  "size_true_unit": "per 1,000 root-tokens",
+  "floor": {
+   "min_count": 3,
+   "min_surah_root_tokens": 30,
+   "note": "home surah requires count>=3 AND surah>=30 root-tokens; else insufficient support"
+  },
+  "headline": {
+   "top_n": 50,
+   "raw_home_albaqara": 30,
+   "per_ayah_home_albaqara": 0,
+   "per_roots_home_albaqara": 0
+  }
+ },
+ "profiles": {
+  "عدل": {
+   "freq_ayahs": 24,
+   "breadth_surahs": 11,
+   "top3_share": 50.0,
+   "gini": 0.935,
+   "home_raw": {
+    "surah": 6,
+    "name": "al-Anam",
+    "ayah_hits": 5
+   },
+   "home_per_ayah": {
+    "surah": 6,
+    "name": "al-Anam",
+    "per_1k_ayahs": 30
+   },
+   "home_size_true": {
+    "surah": 6,
+    "name": "al-Anam",
+    "tokens": 6,
+    "surah_tokens": 1968,
+    "per_1k_roots": 3.0
+   }
+  },
+  "ظلم": {
+   "freq_ayahs": 290,
+   "breadth_surahs": 59,
+   "top3_share": 21.7,
+   "gini": 0.738,
+   "home_raw": {
+    "surah": 2,
+    "name": "al-Baqara",
+    "ayah_hits": 27
+   },
+   "home_per_ayah": {
+    "surah": 14,
+    "name": "Ibrahim",
+    "per_1k_ayahs": 173
+   },
+   "home_size_true": {
+    "surah": 14,
+    "name": "Ibrahim",
+    "tokens": 9,
+    "surah_tokens": 568,
+    "per_1k_roots": 15.8
+   }
+  },
+  "قسط": {
+   "freq_ayahs": 22,
+   "breadth_surahs": 15,
+   "top3_share": 36.4,
+   "gini": 0.899,
+   "home_raw": {
+    "surah": 4,
+    "name": "S4",
+    "ayah_hits": 3
+   },
+   "home_per_ayah": {
+    "surah": 10,
+    "name": "S10",
+    "per_1k_ayahs": 28
+   },
+   "home_size_true": {
+    "surah": 10,
+    "name": "S10",
+    "tokens": 3,
+    "surah_tokens": 1147,
+    "per_1k_roots": 2.6
+   }
+  },
+  "نفس": {
+   "freq_ayahs": 270,
+   "breadth_surahs": 63,
+   "top3_share": 24.1,
+   "gini": 0.733,
+   "home_raw": {
+    "surah": 2,
+    "name": "al-Baqara",
+    "ayah_hits": 30
+   },
+   "home_per_ayah": {
+    "surah": 59,
+    "name": "S59",
+    "per_1k_ayahs": 125
+   },
+   "home_size_true": {
+    "surah": 82,
+    "name": "S82",
+    "tokens": 3,
+    "surah_tokens": 51,
+    "per_1k_roots": 58.8
+   }
+  },
+  "عسر": {
+   "freq_ayahs": 12,
+   "breadth_surahs": 9,
+   "top3_share": 50.0,
+   "gini": 0.934,
+   "home_raw": {
+    "surah": 2,
+    "name": "al-Baqara",
+    "ayah_hits": 2
+   },
+   "home_per_ayah": null,
+   "home_size_true": null
+  },
+  "يسر": {
+   "freq_ayahs": 40,
+   "breadth_surahs": 27,
+   "top3_share": 27.5,
+   "gini": 0.823,
+   "home_raw": {
+    "surah": 2,
+    "name": "al-Baqara",
+    "ayah_hits": 4
+   },
+   "home_per_ayah": {
+    "surah": 54,
+    "name": "S54",
+    "per_1k_ayahs": 73
+   },
+   "home_size_true": {
+    "surah": 92,
+    "name": "S92",
+    "tokens": 3,
+    "surah_tokens": 48,
+    "per_1k_roots": 62.5
+   }
+  },
+  "صبر": {
+   "freq_ayahs": 93,
+   "breadth_surahs": 45,
+   "top3_share": 24.7,
+   "gini": 0.754,
+   "home_raw": {
+    "surah": 2,
+    "name": "al-Baqara",
+    "ayah_hits": 8
+   },
+   "home_per_ayah": {
+    "surah": 18,
+    "name": "al-Kahf",
+    "per_1k_ayahs": 73
+   },
+   "home_size_true": {
+    "surah": 52,
+    "name": "at-Tur",
+    "tokens": 3,
+    "surah_tokens": 205,
+    "per_1k_roots": 14.6
+   }
+  },
+  "رزق": {
+   "freq_ayahs": 109,
+   "breadth_surahs": 44,
+   "top3_share": 21.1,
+   "gini": 0.748,
+   "home_raw": {
+    "surah": 2,
+    "name": "al-Baqara",
+    "ayah_hits": 10
+   },
+   "home_per_ayah": {
+    "surah": 65,
+    "name": "S65",
+    "per_1k_ayahs": 250
+   },
+   "home_size_true": {
+    "surah": 65,
+    "name": "S65",
+    "tokens": 3,
+    "surah_tokens": 204,
+    "per_1k_roots": 14.7
+   }
+  },
+  "شكر": {
+   "freq_ayahs": 69,
+   "breadth_surahs": 35,
+   "top3_share": 23.2,
+   "gini": 0.793,
+   "home_raw": {
+    "surah": 2,
+    "name": "al-Baqara",
+    "ayah_hits": 7
+   },
+   "home_per_ayah": {
+    "surah": 76,
+    "name": "S76",
+    "per_1k_ayahs": 97
+   },
+   "home_size_true": {
+    "surah": 76,
+    "name": "S76",
+    "tokens": 3,
+    "surah_tokens": 179,
+    "per_1k_roots": 16.8
+   }
+  },
+  "هدي": {
+   "freq_ayahs": 268,
+   "breadth_surahs": 62,
+   "top3_share": 22.4,
+   "gini": 0.73,
+   "home_raw": {
+    "surah": 2,
+    "name": "al-Baqara",
+    "ayah_hits": 25
+   },
+   "home_per_ayah": {
+    "surah": 61,
+    "name": "S61",
+    "per_1k_ayahs": 214
+   },
+   "home_size_true": {
+    "surah": 32,
+    "name": "S32",
+    "tokens": 5,
+    "surah_tokens": 240,
+    "per_1k_roots": 20.8
+   }
+  },
+  "ضلل": {
+   "freq_ayahs": 170,
+   "breadth_surahs": 56,
+   "top3_share": 19.4,
+   "gini": 0.702,
+   "home_raw": {
+    "surah": 6,
+    "name": "al-Anam",
+    "ayah_hits": 12
+   },
+   "home_per_ayah": {
+    "surah": 14,
+    "name": "Ibrahim",
+    "per_1k_ayahs": 115
+   },
+   "home_size_true": {
+    "surah": 71,
+    "name": "S71",
+    "tokens": 3,
+    "surah_tokens": 157,
+    "per_1k_roots": 19.1
+   }
+  },
+  "صرط": {
+   "freq_ayahs": 45,
+   "breadth_surahs": 25,
+   "top3_share": 24.4,
+   "gini": 0.832,
+   "home_raw": {
+    "surah": 6,
+    "name": "al-Anam",
+    "ayah_hits": 5
+   },
+   "home_per_ayah": {
+    "surah": 36,
+    "name": "S36",
+    "per_1k_ayahs": 36
+   },
+   "home_size_true": {
+    "surah": 36,
+    "name": "S36",
+    "tokens": 3,
+    "surah_tokens": 443,
+    "per_1k_roots": 6.8
+   }
+  },
+  "رشد": {
+   "freq_ayahs": 19,
+   "breadth_surahs": 9,
+   "top3_share": 57.9,
+   "gini": 0.945,
+   "home_raw": {
+    "surah": 18,
+    "name": "al-Kahf",
+    "ayah_hits": 4
+   },
+   "home_per_ayah": {
+    "surah": 72,
+    "name": "al-Jinn",
+    "per_1k_ayahs": 143
+   },
+   "home_size_true": {
+    "surah": 72,
+    "name": "al-Jinn",
+    "tokens": 4,
+    "surah_tokens": 182,
+    "per_1k_roots": 22.0
+   }
+  },
+  "كفر": {
+   "freq_ayahs": 465,
+   "breadth_surahs": 77,
+   "top3_share": 23.0,
+   "gini": 0.689,
+   "home_raw": {
+    "surah": 2,
+    "name": "al-Baqara",
+    "ayah_hits": 40
+   },
+   "home_per_ayah": {
+    "surah": 60,
+    "name": "al-Mumtahana",
+    "per_1k_ayahs": 538
+   },
+   "home_size_true": {
+    "surah": 60,
+    "name": "al-Mumtahana",
+    "tokens": 8,
+    "surah_tokens": 217,
+    "per_1k_roots": 36.9
+   }
+  },
+  "حقق": {
+   "freq_ayahs": 263,
+   "breadth_surahs": 59,
+   "top3_share": 19.4,
+   "gini": 0.703,
+   "home_raw": {
+    "surah": 2,
+    "name": "al-Baqara",
+    "ayah_hits": 21
+   },
+   "home_per_ayah": {
+    "surah": 46,
+    "name": "S46",
+    "per_1k_ayahs": 200
+   },
+   "home_size_true": {
+    "surah": 69,
+    "name": "S69",
+    "tokens": 4,
+    "surah_tokens": 175,
+    "per_1k_roots": 22.9
+   }
+  },
+  "علم": {
+   "freq_ayahs": 728,
+   "breadth_surahs": 85,
+   "top3_share": 20.1,
+   "gini": 0.659,
+   "home_raw": {
+    "surah": 2,
+    "name": "al-Baqara",
+    "ayah_hits": 76
+   },
+   "home_per_ayah": {
+    "surah": 62,
+    "name": "S62",
+    "per_1k_ayahs": 364
+   },
+   "home_size_true": {
+    "surah": 96,
+    "name": "S96",
+    "tokens": 4,
+    "surah_tokens": 49,
+    "per_1k_roots": 81.6
+   }
+  }
+ }
+}

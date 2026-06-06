@@ -1,0 +1,34 @@
+{
+  "contiguity_mushaf": 0.0005,
+  "contiguity_nuzul": 0.0005,
+  "theme_p": 0.049,
+  "length_tag_p": 0.28886,
+  "letter_entropy_p": 0.002,
+  "root_entropy_p": 0.0005,
+  "lexical_richness_p": 0.0005,
+  "embedding_p": 0.1019,
+  "perfam": {
+    "ḤM": 0.0005,
+    "ALM": 0.006,
+    "ALR": 0.0005,
+    "ṬSM": 0.035
+  },
+  "median_muq": 85,
+  "median_other": 26,
+  "signal": {
+    "autocorr_lag1": 0.666,
+    "fft_peak_p": 0.0005,
+    "wavelet_sig_scales": [
+      32,
+      64,
+      128
+    ],
+    "ayah_len_cv": 0.75
+  },
+  "biology": {
+    "zipf_slope": -1.56,
+    "markov_H0": 4.086,
+    "markov_cond1": 3.525,
+    "dicodon_p": 0.005
+  }
+}

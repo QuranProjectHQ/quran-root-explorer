@@ -1,0 +1,169 @@
+{
+  "letters": [
+    {
+      "letter": "ا",
+      "n_bearers": 13,
+      "bearer_mean": 0.1802,
+      "p": 0.6856,
+      "sample_sura": 12,
+      "sample_name": "یوسف",
+      "sample_count": 1396,
+      "sample_total": 7358,
+      "sample_density_pct": 18.97
+    },
+    {
+      "letter": "ح",
+      "n_bearers": 7,
+      "bearer_mean": 0.0125,
+      "p": 0.6677,
+      "sample_sura": 42,
+      "sample_name": "شوری",
+      "sample_count": 51,
+      "sample_total": 3529,
+      "sample_density_pct": 1.45
+    },
+    {
+      "letter": "ر",
+      "n_bearers": 6,
+      "bearer_mean": 0.0373,
+      "p": 0.7917,
+      "sample_sura": 14,
+      "sample_name": "ابراهیم",
+      "sample_count": 158,
+      "sample_total": 3568,
+      "sample_density_pct": 4.43
+    },
+    {
+      "letter": "س",
+      "n_bearers": 5,
+      "bearer_mean": 0.0166,
+      "p": 0.7818,
+      "sample_sura": 27,
+      "sample_name": "نمل",
+      "sample_count": 93,
+      "sample_total": 4834,
+      "sample_density_pct": 1.92
+    },
+    {
+      "letter": "ص",
+      "n_bearers": 3,
+      "bearer_mean": 0.0076,
+      "p": 0.4298,
+      "sample_sura": 38,
+      "sample_name": "ص",
+      "sample_count": 29,
+      "sample_total": 3080,
+      "sample_density_pct": 0.94
+    },
+    {
+      "letter": "ط",
+      "n_bearers": 4,
+      "bearer_mean": 0.0049,
+      "p": 0.3267,
+      "sample_sura": 26,
+      "sample_name": "شعراء",
+      "sample_count": 33,
+      "sample_total": 5652,
+      "sample_density_pct": 0.58
+    },
+    {
+      "letter": "ع",
+      "n_bearers": 2,
+      "bearer_mean": 0.0286,
+      "p": 0.3938,
+      "sample_sura": 19,
+      "sample_name": "مریم",
+      "sample_count": 117,
+      "sample_total": 3964,
+      "sample_density_pct": 2.95
+    },
+    {
+      "letter": "ق",
+      "n_bearers": 2,
+      "bearer_mean": 0.0269,
+      "p": 0.0978,
+      "sample_sura": 50,
+      "sample_name": "ق",
+      "sample_count": 57,
+      "sample_total": 1517,
+      "sample_density_pct": 3.76
+    },
+    {
+      "letter": "ك",
+      "n_bearers": 1,
+      "bearer_mean": 0.0346,
+      "p": 0.2264,
+      "sample_sura": 19,
+      "sample_name": "مریم",
+      "sample_count": 137,
+      "sample_total": 3964,
+      "sample_density_pct": 3.46
+    },
+    {
+      "letter": "ل",
+      "n_bearers": 13,
+      "bearer_mean": 0.1177,
+      "p": 0.2435,
+      "sample_sura": 31,
+      "sample_name": "لقمان",
+      "sample_count": 298,
+      "sample_total": 2185,
+      "sample_density_pct": 13.64
+    },
+    {
+      "letter": "م",
+      "n_bearers": 17,
+      "bearer_mean": 0.084,
+      "p": 0.018,
+      "sample_sura": 44,
+      "sample_name": "دخان",
+      "sample_count": 147,
+      "sample_total": 1485,
+      "sample_density_pct": 9.9
+    },
+    {
+      "letter": "ن",
+      "n_bearers": 1,
+      "bearer_mean": 0.1063,
+      "p": 0.0777,
+      "sample_sura": 68,
+      "sample_name": "قلم",
+      "sample_count": 138,
+      "sample_total": 1298,
+      "sample_density_pct": 10.63
+    },
+    {
+      "letter": "ه",
+      "n_bearers": 2,
+      "bearer_mean": 0.0465,
+      "p": 0.6725,
+      "sample_sura": 20,
+      "sample_name": "طه",
+      "sample_count": 253,
+      "sample_total": 5423,
+      "sample_density_pct": 4.67
+    },
+    {
+      "letter": "ي",
+      "n_bearers": 2,
+      "bearer_mean": 0.081,
+      "p": 0.2309,
+      "sample_sura": 19,
+      "sample_name": "مریم",
+      "sample_count": 340,
+      "sample_total": 3964,
+      "sample_density_pct": 8.58
+    }
+  ],
+  "qaf": {
+    "sura50_rank": 111,
+    "sura50_count": 57,
+    "sura50_total": 1517,
+    "sura50_density_pct": 3.76,
+    "p": 0.0978
+  },
+  "contiguity_p_mushaf": 4.999750012499375e-05,
+  "median_muq": 85,
+  "median_other": 26,
+  "n_sig": 1
+}
