@@ -35,8 +35,10 @@ across the whole it *returns* to itself more. This remains under active review; 
 
 ## The live app
 
-The app runs on free public hosting and deploys directly from this repository. *(Link added once the
-public deployment is live.)* You can also run it locally — see `app/README.md`.
+**▶ Try it now: https://quranprojecthq-quran-root-explorer-appapp-dlobjl.streamlit.app/**
+
+It runs on free public hosting and deploys directly from this repository, so the live app always
+reflects the latest code. You can also run it locally — see `app/README.md`.
 
 ## Using and contributing
 
